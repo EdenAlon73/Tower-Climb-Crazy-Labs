@@ -35,14 +35,14 @@ public class PlayerMover : MonoBehaviour
 
     private void Accelerate()
     {
-        moveSpeed =moveSpeed + 1f * Time.deltaTime;
+       // moveSpeed =moveSpeed + 1f * Time.deltaTime;
     }
 
     private void SetGravity()
     {
         rb.AddForce((self.transform.position - Tower.position).normalized * gravity);
-        self.transform.rotation = Quaternion.Slerp(self.transform.rotation, Quaternion.FromToRotation(self.transform.up, (self.transform.position - Tower.position).normalized)
-            * self.transform.rotation, rotationSpeed * Time.deltaTime);
+        self.transform.rotation = Quaternion.Slerp(self.transform.rotation, Quaternion.FromToRotation(self.transform.forward, (self.transform.position - Tower.position).normalized)
+           * self.transform.rotation, rotationSpeed * Time.deltaTime);
     }
 
   
