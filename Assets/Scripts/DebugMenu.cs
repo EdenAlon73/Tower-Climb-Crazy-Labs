@@ -5,26 +5,30 @@ using UnityEngine;
 using UnityEngine.UI;
 public class DebugMenu : MonoBehaviour
 {
- 
-    [Tooltip("Length Of Level In Seconds")]
-    [SerializeField] private float gameSpeed;
-    private GravityModifier gravityModifier;
+    //Sliders
     private Slider gameSpeedSlider;
-  
-    private bool triggeredLevelFinished = false;
+    private Slider playerRotationSlider;
+    private Toggle accelerateOverTimeToggle;
+    
+    //Cache Ref
+    private GravityModifier gravityModifier;
     private GameManager gameManager;
+    
     private void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
-        gameSpeedSlider = GetComponentInChildren<Slider>();
         gravityModifier = FindObjectOfType<GravityModifier>();
+        gameSpeedSlider = GameObject.Find("Slider_GameSpeed").GetComponent<Slider>();
+        playerRotationSlider = GameObject.Find("Slider_Player Rotation Speed").GetComponent<Slider>();
+        accelerateOverTimeToggle = GameObject.Find("Toggle_Accelerate Over Time").GetComponent<Toggle>();
     }
   
 
     private void Update()
     {
-        print(gameSpeedSlider.value);
         gameManager.gameTimeSpeed = gameSpeedSlider.value;
+        gravityModifier.gravityRotationSpeed = playerRotationSlider.value;
+        accelerateOverTimeToggle.isOn = gravityModifier.accelerateOverTime;
     }
 }
 

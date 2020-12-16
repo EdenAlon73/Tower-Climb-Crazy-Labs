@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eecbd162-495f-4877-a6ce-a1dc7b77f0ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Game Manager.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Game Manager.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Scene Loader.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Scene Loader.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_Base Level Creation 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_Base Level Creation 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DebugMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DebugMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GravityModifier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GravityModifier.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GravityModifier.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DebugMenu.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lecWLX30KWxCx7NmBEyrPDlMg2" />
@@ -96,6 +95,7 @@
       <workItem from="1608049017130" duration="2259000" />
       <workItem from="1608113716844" duration="337000" />
       <workItem from="1608114105252" duration="444000" />
+      <workItem from="1608133884111" duration="1285000" />
     </task>
     <servers />
   </component>

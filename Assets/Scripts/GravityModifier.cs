@@ -11,11 +11,11 @@ public class GravityModifier : MonoBehaviour
     [SerializeField] private float accelerationVarb = 1f;
     [SerializeField] private float maxAnimatorSpeed = 2f;
     [SerializeField] private float animAccelerationSpeed = 0.2f;
-    [SerializeField] private float gravityRotationSpeed = 150f;
-    
+    public float gravityRotationSpeed = 150f;
     public float directionOfMovement = 1;
     private float horizontalInput;
     public bool isMoving;
+    public bool accelerateOverTime = true;
     
     
     
@@ -35,8 +35,7 @@ public class GravityModifier : MonoBehaviour
     {
         ForwardMovement();
         HorizontalMovement();
-        Accelerate();
-        SetAnimationSpeed();
+        AccelerateOverTime();
     }
 
     private void ForwardMovement()
@@ -51,29 +50,28 @@ public class GravityModifier : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Rotate(0, 0, -horizontalInput * gravityRotationSpeed * Time.deltaTime);
     }
-    private void Accelerate()
+    private void AccelerateOverTime()
     {
-        if (climbingSpeed < maxMoveSpeed)
+        if (accelerateOverTime)
         {
-            climbingSpeed = climbingSpeed + accelerationVarb * Time.deltaTime;
-            gravityRotationSpeed = gravityRotationSpeed + 2 * Time.deltaTime;
-        }
-        else
-        {
-            climbingSpeed = maxMoveSpeed;
-        }
-    }
-
-    private void SetAnimationSpeed()
-    {
-        if (animator.speed < maxAnimatorSpeed)
-        {
-            animator.speed = animator.speed + animAccelerationSpeed * Time.deltaTime ;
-        }
-        else
-        {
-            animator.speed = maxAnimatorSpeed;
-        }
+            if (climbingSpeed < maxMoveSpeed)
+            {
+                climbingSpeed = climbingSpeed + accelerationVarb * Time.deltaTime;
+                gravityRotationSpeed = gravityRotationSpeed + 2 * Time.deltaTime;
+            }
+            else
+            {
+                climbingSpeed = maxMoveSpeed;
+            }
         
+            if (animator.speed < maxAnimatorSpeed)
+            {
+                animator.speed = animator.speed + animAccelerationSpeed * Time.deltaTime ;
+            }
+            else
+            {
+                animator.speed = maxAnimatorSpeed;
+            }
+        }
     }
 }
