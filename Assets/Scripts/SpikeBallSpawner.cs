@@ -49,7 +49,7 @@ public class SpikeBallSpawner : MonoBehaviour
 
     private void SpwanObstacle()
     {
-        Instantiate(fallingObstaclePrefab, transform.position, Quaternion.identity);
+        Instantiate(fallingObstaclePrefab, transform.position, Quaternion.identity, transform);
     }
    
 }

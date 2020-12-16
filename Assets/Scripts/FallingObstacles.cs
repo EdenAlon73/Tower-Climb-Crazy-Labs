@@ -4,18 +4,13 @@ using UnityEngine;
 
 public class FallingObstacles : MonoBehaviour
 {
-    [SerializeField] private float fallSpeed = 2f;
+    private SpawnerParent spawnerScript;
     private float directionOfMovement = -1;
-    [SerializeField] float delayInSeconds = 0.3f;
 
-    bool isPlaying = false;
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-
+        spawnerScript = GetComponentInParent<SpawnerParent>();
     }
-
-    // Update is called once per frame
     void Update()
     {
         ForwardMovement();
@@ -23,7 +18,7 @@ public class FallingObstacles : MonoBehaviour
 
     private void ForwardMovement()
     {
-        transform.position = transform.position + new Vector3(0, 0, directionOfMovement * fallSpeed * Time.deltaTime);
+        transform.position = transform.position + new Vector3(0, 0, directionOfMovement * spawnerScript.fallingObstacleSpeed * Time.deltaTime);
     }
 
   

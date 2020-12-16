@@ -7,7 +7,7 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    public float gameTimeSpeed;
+    
     
     [SerializeField] private int pointsPerCoinCollected = 1;
     [SerializeField] private int currentScore = 0;
@@ -20,13 +20,6 @@ public class GameManager : MonoBehaviour
     {
         scoreText.text = currentScore.ToString();
     }
-
-    void Update()
-    {
-       
-        Time.timeScale = gameTimeSpeed;
-    }
-
     public void AddToScore()
     {
         currentScore = currentScore + pointsPerCoinCollected;
