@@ -13,7 +13,7 @@ public class GravityModifier : MonoBehaviour
     [SerializeField] private float animAccelerationSpeed = 0.2f;
     [SerializeField] private float gravityRotationSpeed = 150f;
     
-    private float directionOfMovement = 1;
+    public float directionOfMovement = 1;
     private float horizontalInput;
     public bool isMoving;
     

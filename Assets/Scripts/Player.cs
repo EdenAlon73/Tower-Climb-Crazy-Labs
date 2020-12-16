@@ -9,12 +9,14 @@ public class Player : MonoBehaviour
     // Cache Referances
     private GravityModifier gravityModifier;
     private GameManager gameManager;
-
-    
+    private Animator animator;
+    private Collider collider;
     private void Awake()
     {
         gravityModifier = GetComponentInParent<GravityModifier>();
         gameManager = FindObjectOfType<GameManager>();
+        animator = GetComponentInChildren<Animator>();
+        collider = GetComponent<CapsuleCollider>();
     }
     
     private void OnTriggerEnter(Collider other)
@@ -24,7 +26,16 @@ public class Player : MonoBehaviour
             gameManager.AddToScore();
             Destroy(other.gameObject);
         }
+        if (other.CompareTag("Obstacle"))
+        {
+            gravityModifier.directionOfMovement = -1;
+            animator.SetBool("isFalling", true);
+            transform.Rotate(-90, 0, 0 * Time.deltaTime * 400);
+            collider.enabled = false;
+        }
     }
+
+
     /*
     private void RotatePlayerY()
     {

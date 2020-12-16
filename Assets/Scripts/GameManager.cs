@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 {
     [Range(0.1f, 2f)] [SerializeField] private float gameTimeSpeed = 1f;
     
-    [SerializeField] private int pointsPerCoinCollected = 20;
+    [SerializeField] private int pointsPerCoinCollected = 1;
     [SerializeField] private int currentScore = 0;
     [SerializeField] private TextMeshProUGUI scoreText;
 
