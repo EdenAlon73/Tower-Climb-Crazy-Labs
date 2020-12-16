@@ -7,32 +7,15 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    [Range(0.1f, 2f)] [SerializeField] private float gameTimeSpeed = 1f;
+    public float gameTimeSpeed;
     
     [SerializeField] private int pointsPerCoinCollected = 1;
     [SerializeField] private int currentScore = 0;
     [SerializeField] private TextMeshProUGUI scoreText;
-
-
     private void Awake()
     {
-      SetUpSingleton();  
+        currentScore = 0;
     }
-
-    private void SetUpSingleton()
-    {
-        int gameMangerCount = FindObjectsOfType<GameManager>().Length;
-        if (gameMangerCount > 1)
-        {
-            gameObject.SetActive(false);
-            Destroy(gameObject);
-        }
-        else
-        {
-            DontDestroyOnLoad(gameObject);
-        }
-    }
-
     private void Start()
     {
         scoreText.text = currentScore.ToString();
@@ -40,6 +23,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+       
         Time.timeScale = gameTimeSpeed;
     }
 

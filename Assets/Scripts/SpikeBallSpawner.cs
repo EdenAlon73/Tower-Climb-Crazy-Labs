@@ -13,7 +13,7 @@ public class SpikeBallSpawner : MonoBehaviour
     [SerializeField] private float spawnTimeDelay = 2f;
     [SerializeField] private float timeIncrement = .25f;
     [SerializeField] private bool doISpawnOverTime;
-
+    
 
 
     IEnumerator Start()

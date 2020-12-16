@@ -11,12 +11,14 @@ public class Player : MonoBehaviour
     private GameManager gameManager;
     private Animator animator;
     private Collider collider;
+    private SceneLoader sceneLoader;
     private void Awake()
     {
         gravityModifier = GetComponentInParent<GravityModifier>();
         gameManager = FindObjectOfType<GameManager>();
         animator = GetComponentInChildren<Animator>();
         collider = GetComponent<CapsuleCollider>();
+        sceneLoader = FindObjectOfType<SceneLoader>();
     }
     
     private void OnTriggerEnter(Collider other)
@@ -32,6 +34,7 @@ public class Player : MonoBehaviour
             animator.SetBool("isFalling", true);
             transform.Rotate(-90, 0, 0 * Time.deltaTime * 400);
             collider.enabled = false;
+            sceneLoader.RestartLastLevel();
         }
     }
 

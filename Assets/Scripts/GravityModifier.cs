@@ -6,7 +6,7 @@ using UnityEngine;
 public class GravityModifier : MonoBehaviour
 {
     [Header("Movement Config")]
-    [SerializeField] private float climbingSpeed = 1f;
+     public float climbingSpeed = 1f;
     [SerializeField] private float maxMoveSpeed = 20f;
     [SerializeField] private float accelerationVarb = 1f;
     [SerializeField] private float maxAnimatorSpeed = 2f;
