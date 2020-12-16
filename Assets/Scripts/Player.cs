@@ -10,26 +10,13 @@ public class Player : MonoBehaviour
     private GravityModifier gravityModifier;
     private GameManager gameManager;
 
-
-    [Header("Movement Config")]
-    public float playerRotationSpeed = 250f;
-    public float upMoveSpeed;
-    private float playerEularY;
-    private float horizontalInput;
-
+    
     private void Awake()
     {
         gravityModifier = GetComponentInParent<GravityModifier>();
         gameManager = FindObjectOfType<GameManager>();
     }
-
-    private void Update()
-    {
-        RotatePlayerY();
-        horizontalInput = Input.GetAxis("Horizontal");
-        upMoveSpeed = gravityModifier.upMoveSpeed;
-    }
-
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Collectable"))
@@ -38,23 +25,23 @@ public class Player : MonoBehaviour
             Destroy(other.gameObject);
         }
     }
-
+    /*
     private void RotatePlayerY()
     {
 
-        //
-       // if (horizontalInput == 0)
-       // {
-       //     if (player.transform.rotation.y < 0)
-       //     {
-       //         player.transform.Rotate(0, 1, 0);
-       //     }
-       //     if (player.transform.rotation.y > 0)
-       //     {
-       //         player.transform.Rotate(0, -1, 0);
-       //     }
-       //     print("transformRest");
-       // }
+        
+       if (horizontalInput == 0)
+       {
+           if (transform.rotation.y < 0)
+           {
+               transform.Rotate(0, 1, 0);
+           }
+           if (transform.rotation.y > 0)
+           {
+               transform.Rotate(0, -1, 0);
+           }
+           print("transformRest");
+       }
 
        playerEularY = transform.rotation.eulerAngles.y;
        
@@ -83,38 +70,39 @@ public class Player : MonoBehaviour
        }
        
        
-       // playerEularY = player.transform.rotation.eulerAngles.y;
-       // float horizontalInput = Input.GetAxis("Horizontal");
-       //
-       // if (playerEularY <= 50f || playerEularY >= 310f)
-       // {
-       //     if (horizontalInput < 0 )
-       //     {
-       //         playerEularY -= turningSpeed;
-       //        
-       //     }
-       //
-       //     if (horizontalInput > 0)
-       //     {
-       //         playerEularY += turningSpeed;
-       //         
-       //     }
-       // }
-       //  
-       // else if (playerEularY > 50f && playerEularY < 180f)
-       // {
-       //     playerEularY = 49.9f;
-       // }
-       //  
-       // else if (playerEularY < 310f && playerEularY > 180f)
-       // {
-       //     playerEularY = 310.1f;
-       // }
-       //  
-       // player.transform.rotation = Quaternion.Euler(0f, playerEularY, 0f);
+       playerEularY = transform.rotation.eulerAngles.y;
+       float horizontalInput = Input.GetAxis("Horizontal");
+       
+       if (playerEularY <= 50f || playerEularY >= 310f)
+       {
+           if (horizontalInput < 0 )
+           {
+               playerEularY -= turningSpeed;
+              
+           }
+       
+           if (horizontalInput > 0)
+           {
+               playerEularY += turningSpeed;
+               
+           }
+       }
+        
+       else if (playerEularY > 50f && playerEularY < 180f)
+       {
+           playerEularY = 49.9f;
+       }
+        
+       else if (playerEularY < 310f && playerEularY > 180f)
+       {
+           playerEularY = 310.1f;
+       }
+        
+       transform.rotation = Quaternion.Euler(0f, playerEularY, 0f);
        
        
        print(playerEularY);
 
     }
+    */
 }

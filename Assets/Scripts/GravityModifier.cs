@@ -6,16 +6,17 @@ using UnityEngine;
 public class GravityModifier : MonoBehaviour
 {
     [Header("Movement Config")]
-    [SerializeField] public float upMoveSpeed = 1f;
-    [SerializeField] private float directionOfMovement = 1;
+    [SerializeField] private float climbingSpeed = 1f;
+    [SerializeField] private float maxMoveSpeed = 20f;
     [SerializeField] private float accelerationVarb = 1f;
     [SerializeField] private float maxAnimatorSpeed = 2f;
     [SerializeField] private float animAccelerationSpeed = 0.2f;
     [SerializeField] private float gravityRotationSpeed = 150f;
-    [SerializeField] private float turningSpeed = 5f;
+    
+    private float directionOfMovement = 1;
     private float horizontalInput;
     public bool isMoving;
-    private float maxMoveSpeed = 20f;
+    
     
     
     //Cache Referances
@@ -42,7 +43,7 @@ public class GravityModifier : MonoBehaviour
     {
         if (isMoving)
         {
-            transform.position = transform.position + new Vector3(0, 0, directionOfMovement * upMoveSpeed * Time.deltaTime); 
+            transform.position = transform.position + new Vector3(0, 0, directionOfMovement * climbingSpeed * Time.deltaTime); 
         }
     }
     private void HorizontalMovement()
@@ -50,19 +51,17 @@ public class GravityModifier : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Rotate(0, 0, -horizontalInput * gravityRotationSpeed * Time.deltaTime);
     }
-    
     private void Accelerate()
     {
-        if (upMoveSpeed < maxMoveSpeed)
+        if (climbingSpeed < maxMoveSpeed)
         {
-            upMoveSpeed = upMoveSpeed + accelerationVarb * Time.deltaTime;
-            player.playerRotationSpeed = player.playerRotationSpeed + 2 * Time.deltaTime;
+            climbingSpeed = climbingSpeed + accelerationVarb * Time.deltaTime;
+            gravityRotationSpeed = gravityRotationSpeed + 2 * Time.deltaTime;
         }
         else
         {
-            upMoveSpeed = maxMoveSpeed;
+            climbingSpeed = maxMoveSpeed;
         }
-    
     }
 
     private void SetAnimationSpeed()
