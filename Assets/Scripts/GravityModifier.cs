@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Lean.Touch;
 
 public class GravityModifier : MonoBehaviour
 {
@@ -16,8 +17,8 @@ public class GravityModifier : MonoBehaviour
     private float horizontalInput;
     public bool isMoving;
     public bool accelerateOverTime = true;
-    private float xPosMaxClamp = 25;
-    private float xPosMinClamp = -25;
+    private float zPosMaxClamp = 25;
+    private float zPosMinClamp = -25;
     
     
     
@@ -25,6 +26,7 @@ public class GravityModifier : MonoBehaviour
     private Player player;
     private Animator animator;
     private Touch touch;
+    
 
     private void Awake()
     {
@@ -37,9 +39,10 @@ public class GravityModifier : MonoBehaviour
     void FixedUpdate()
     {
         ForwardMovement();
-       // HorizontalMovement();
         AccelerateOverTime();
-        HorizontalMovementPhone();
+       // HorizontalMovement();
+       HorizontalMovementPhone();
+
     }
 
     private void ForwardMovement()
@@ -49,13 +52,12 @@ public class GravityModifier : MonoBehaviour
             transform.position = transform.position + new Vector3(0, 0, directionOfMovement * climbingSpeed * Time.deltaTime); 
         }
     }
-    /*
+    
     private void HorizontalMovement()
     {
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Rotate(0, 0, -horizontalInput * gravityRotationSpeed * Time.deltaTime);
     }
-    */
 
     private void HorizontalMovementPhone()
     {
@@ -64,10 +66,16 @@ public class GravityModifier : MonoBehaviour
             touch = Input.GetTouch(0);
             if (touch.phase == TouchPhase.Moved)
             {
-                transform.Rotate(0, 0, -horizontalInput * gravityRotationSpeed * Time.deltaTime);
+                var pos = transform.rotation;
+                pos.z = Mathf.Clamp(transform.position.z, zPosMinClamp, zPosMaxClamp);
+                transform.Rotate(0, 0, pos.z + touch.deltaPosition.x * gravityRotationSpeed * Time.deltaTime);
+                //transform.Rotate(); = new Vector3(pos.x + touch.deltaPosition.x * gravityRotationSpeed, 32.60001f, transform.position.z);
             }
-        }
+        } 
     }
+    
+
+   
     private void AccelerateOverTime()
     {
         if (accelerateOverTime)
