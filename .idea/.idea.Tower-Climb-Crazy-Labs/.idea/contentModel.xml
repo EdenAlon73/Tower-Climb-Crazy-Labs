@@ -21,6 +21,8 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="CanvasController.cs" t="Include" />
+          <e p="ChangeCameraPostions.cs" t="Include" />
           <e p="ConstantlyMovingUp.cs" t="Include" />
           <e p="DebugMenu.cs" t="Include" />
           <e p="FallingObstacles.cs" t="Include" />
@@ -29,6 +31,7 @@
           <e p="Obstacle.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="SceneLoader.cs" t="Include" />
+          <e p="SpawnerParent.cs" t="Include" />
           <e p="SpawnStopper.cs" t="Include" />
           <e p="SpikeBallSpawner.cs" t="Include" />
         </e>

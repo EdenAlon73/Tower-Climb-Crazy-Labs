@@ -16,12 +16,15 @@ public class GravityModifier : MonoBehaviour
     private float horizontalInput;
     public bool isMoving;
     public bool accelerateOverTime = true;
+    private float xPosMaxClamp = 25;
+    private float xPosMinClamp = -25;
     
     
     
     //Cache Referances
     private Player player;
     private Animator animator;
+    private Touch touch;
 
     private void Awake()
     {
@@ -34,8 +37,9 @@ public class GravityModifier : MonoBehaviour
     void FixedUpdate()
     {
         ForwardMovement();
-        HorizontalMovement();
+       // HorizontalMovement();
         AccelerateOverTime();
+        HorizontalMovementPhone();
     }
 
     private void ForwardMovement()
@@ -45,10 +49,24 @@ public class GravityModifier : MonoBehaviour
             transform.position = transform.position + new Vector3(0, 0, directionOfMovement * climbingSpeed * Time.deltaTime); 
         }
     }
+    /*
     private void HorizontalMovement()
     {
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Rotate(0, 0, -horizontalInput * gravityRotationSpeed * Time.deltaTime);
+    }
+    */
+
+    private void HorizontalMovementPhone()
+    {
+        if (Input.touchCount > 0)
+        {
+            touch = Input.GetTouch(0);
+            if (touch.phase == TouchPhase.Moved)
+            {
+                transform.Rotate(0, 0, -horizontalInput * gravityRotationSpeed * Time.deltaTime);
+            }
+        }
     }
     private void AccelerateOverTime()
     {
