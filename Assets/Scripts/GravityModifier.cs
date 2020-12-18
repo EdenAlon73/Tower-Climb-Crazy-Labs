@@ -12,6 +12,7 @@ public class GravityModifier : MonoBehaviour
     [SerializeField] private float accelerationVarb = 1f;
     [SerializeField] private float maxAnimatorSpeed = 2f;
     [SerializeField] private float animAccelerationSpeed = 0.2f;
+    [SerializeField] Rigidbody rb;
     public float gravityRotationSpeed = 150f;
     public float directionOfMovement = 1;
     private float horizontalInput;
@@ -19,7 +20,7 @@ public class GravityModifier : MonoBehaviour
     public bool accelerateOverTime = true;
     private float zPosMaxClamp = 25;
     private float zPosMinClamp = -25;
-    
+    bool isDragging = false;
     
     
     //Cache Referances
@@ -34,15 +35,28 @@ public class GravityModifier : MonoBehaviour
         isMoving = true;
         animator = GetComponentInChildren<Animator>();
         animator.speed = 0.5f;
+        rb = GetComponent<Rigidbody>();
     }
-    
+    private void Update()
+    {
+        if (Input.GetMouseButtonUp(0))
+        {
+            isDragging = false;
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            isDragging = true;
+        }
+    }
+
     void FixedUpdate()
     {
         ForwardMovement();
         AccelerateOverTime();
-       // HorizontalMovement();
+        HorizontalMovement();
        HorizontalMovementPhone();
-
+        print(isDragging);
     }
 
     private void ForwardMovement()
@@ -58,9 +72,18 @@ public class GravityModifier : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Rotate(0, 0, -horizontalInput * gravityRotationSpeed * Time.deltaTime);
     }
-
+    
     private void HorizontalMovementPhone()
     {
+        if (isDragging)
+        {
+            float x = Input.GetAxis("Mouse X") * gravityRotationSpeed * Time.fixedDeltaTime;
+
+            transform.Rotate(0, 0, -x * gravityRotationSpeed * Time.deltaTime);
+
+        }
+
+        /*
         if (Input.touchCount > 0)
         {
             touch = Input.GetTouch(0);
@@ -71,11 +94,10 @@ public class GravityModifier : MonoBehaviour
                 transform.Rotate(0, 0, pos.z + touch.deltaPosition.x * gravityRotationSpeed * Time.deltaTime);
                 //transform.Rotate(); = new Vector3(pos.x + touch.deltaPosition.x * gravityRotationSpeed, 32.60001f, transform.position.z);
             }
-        } 
+        } */
     }
-    
-
    
+
     private void AccelerateOverTime()
     {
         if (accelerateOverTime)
