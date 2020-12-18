@@ -10,14 +10,14 @@ public class Player : MonoBehaviour
     private GravityModifier gravityModifier;
     private GameManager gameManager;
     private Animator animator;
-    private Collider collider;
+    private Collider playerCollider;
     private SceneLoader sceneLoader;
     private void Awake()
     {
         gravityModifier = GetComponentInParent<GravityModifier>();
         gameManager = FindObjectOfType<GameManager>();
         animator = GetComponentInChildren<Animator>();
-        collider = GetComponent<CapsuleCollider>();
+        playerCollider = GetComponent<CapsuleCollider>();
         sceneLoader = FindObjectOfType<SceneLoader>();
     }
     
@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
             gravityModifier.directionOfMovement = -1;
             animator.SetBool("isFalling", true);
             transform.Rotate(-90, 0, 0 * Time.deltaTime * 400);
-            collider.enabled = false;
+            playerCollider.enabled = false;
             sceneLoader.RestartLastLevel();
         }
     }
