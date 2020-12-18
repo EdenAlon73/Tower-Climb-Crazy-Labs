@@ -6,50 +6,44 @@ using Random = UnityEngine.Random;
 
 public class SpikeBallSpawner : MonoBehaviour
 {
-    private bool spawn = true;
-    [SerializeField] GameObject fallingObstaclePrefab;
-    [SerializeField] private float minSpawnDelay = 1f;
-    [SerializeField] private float maxSpawnDelay = 5f;
-    [SerializeField] private float spawnTimeDelay = 2f;
-    [SerializeField] private float timeIncrement = .25f;
-    [SerializeField] private bool doISpawnOverTime;
-    
+    private SpawnerParent spawnerParent;
 
+    [SerializeField] private GameObject fallingObstaclePrefab;
+
+
+    private void Awake()
+    {
+        spawnerParent = GetComponentInParent<SpawnerParent>();
+    }
 
     IEnumerator Start()
     {
 
-        while (spawn && !doISpawnOverTime)
+        while (spawnerParent.spawn && !spawnerParent.doISpawnOverTime)
         {
-            yield return new WaitForSeconds(Random.Range(minSpawnDelay, maxSpawnDelay));
-            if (spawn)
+            yield return new WaitForSeconds(Random.Range(spawnerParent.minSpawnDelay, spawnerParent.maxSpawnDelay));
+            if (spawnerParent.spawn)
             {
                 SpwanObstacle();
             }
 
         }
 
-        while (spawn && doISpawnOverTime)
+        while (spawnerParent.spawn && spawnerParent.doISpawnOverTime)
         {
-            yield return new WaitForSeconds(spawnTimeDelay);
-            spawnTimeDelay -= timeIncrement;
-            if (spawn)
+            yield return new WaitForSeconds(spawnerParent.spawnTimeDelay);
+            spawnerParent.spawnTimeDelay -= spawnerParent.timeIncrement;
+            if (spawnerParent.spawn)
             {
                 SpwanObstacle();
             }
-
         }
-
-    }
-
-    public void StopSpawning()
-    {
-        spawn = false;
     }
 
     private void SpwanObstacle()
     {
         Instantiate(fallingObstaclePrefab, transform.position, Quaternion.identity, transform);
     }
-   
+
+
 }

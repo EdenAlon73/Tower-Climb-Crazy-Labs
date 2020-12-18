@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class SpawnStopper : MonoBehaviour
 {
-    [SerializeField] private GameObject obstacleSpawnerParent;
+    [SerializeField] private SpawnerParent spawnerParent;
 
     private void Awake()
     {
-        obstacleSpawnerParent = GameObject.FindGameObjectWithTag("SpawnerParent");
+        spawnerParent = FindObjectOfType<SpawnerParent>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            obstacleSpawnerParent.SetActive(false);
+            spawnerParent.StopSpawning();
         }
     }
 }

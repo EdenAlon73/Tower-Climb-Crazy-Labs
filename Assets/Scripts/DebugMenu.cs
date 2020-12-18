@@ -8,38 +8,57 @@ public class DebugMenu : MonoBehaviour
     //Sliders
     private Slider playerRotationSlider;
     private Slider climbingSpeedSlider;
-    private Toggle accelerateOverTimeToggle;
     private Slider obstacleSpeedSlider;
+    private Slider obstacleSpawnRateSlider;
+
+    //Toggles
+    private Toggle accelerateOverTimeToggle;
+    private Toggle increaseObstacleSpawningToggle;
+
     //Cache Ref
     private GravityModifier gravityModifier;
-    private GameManager gameManager;
-    private SpawnerParent spikeBallSpawner;
-    
+    private SpawnerParent spawnerParent;
+
     private void Awake()
     {
-        
-        spikeBallSpawner = FindObjectOfType<SpawnerParent>();
-        gameManager = FindObjectOfType<GameManager>();
+        //Cache Ref
+        spawnerParent = FindObjectOfType<SpawnerParent>();
         gravityModifier = FindObjectOfType<GravityModifier>();
+
+        //Sliders
         playerRotationSlider = GameObject.Find("Slider_Player Rotation Speed").GetComponent<Slider>();
         climbingSpeedSlider = GameObject.Find("Slider_ClimbingSpeed").GetComponent<Slider>();
-        accelerateOverTimeToggle = GameObject.Find("Toggle_Accelerate Over Time").GetComponent<Toggle>();
         obstacleSpeedSlider = GameObject.Find("Slider_SpikedBall Speed").GetComponent<Slider>();
+        obstacleSpawnRateSlider = GameObject.Find("Slider_Obstacle Spawn Rate").GetComponent<Slider>();
+
+        //Toggles
+        accelerateOverTimeToggle = GameObject.Find("Toggle_Accelerate Over Time").GetComponent<Toggle>();
+        increaseObstacleSpawningToggle = GameObject.Find("Toggle_Increase Obstacle Spawning").GetComponent<Toggle>();
     }
     private void Start()
     {
+        //Sliders
         playerRotationSlider.value = gravityModifier.gravityRotationSpeed;
         climbingSpeedSlider.value = gravityModifier.climbingSpeed;
+        obstacleSpeedSlider.value = spawnerParent.fallingObstacleSpeed;
+        obstacleSpawnRateSlider.value = spawnerParent.maxSpawnDelay;
+
+        //Toggles
         accelerateOverTimeToggle.isOn = gravityModifier.accelerateOverTime;
-        obstacleSpeedSlider.value = spikeBallSpawner.fallingObstacleSpeed;
+        increaseObstacleSpawningToggle.isOn = spawnerParent.doISpawnOverTime;
     }
 
     private void Update()
     {
+        //Sliders
         gravityModifier.gravityRotationSpeed = playerRotationSlider.value;
         gravityModifier.climbingSpeed = climbingSpeedSlider.value;
+        spawnerParent.fallingObstacleSpeed = obstacleSpeedSlider.value;
+        spawnerParent.maxSpawnDelay = obstacleSpawnRateSlider.value;
+
+        //Toggles
         gravityModifier.accelerateOverTime = accelerateOverTimeToggle.isOn;
-        spikeBallSpawner.fallingObstacleSpeed = obstacleSpeedSlider.value;
+        spawnerParent.doISpawnOverTime = increaseObstacleSpawningToggle.isOn;
     }
 
 }
