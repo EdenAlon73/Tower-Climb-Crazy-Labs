@@ -8,34 +8,14 @@ using UnityEngine.UI;
 public class SceneLoader : MonoBehaviour
 {
     [SerializeField] private float delayInSeconds = 1f;
-    [SerializeField] private Button[] levelButtons;
     private GameManager gameManager;
     
    
-    // --------------------- Methods --------------------
+
     private void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
     }
-
-    private void Start()
-    {
-        CheckLevelUnlocked();
-    }
-
-    private void CheckLevelUnlocked()
-    {
-        int levelReached = PlayerPrefs.GetInt("levelReached", 1);
-
-        for (int i = 0; i < levelButtons.Length; i++)
-        {
-            if (i + 1 > levelReached)
-            {
-                levelButtons[i].interactable = false;
-            }
-        }
-    }
-    
 
     public void LoadSceneByName(string nameofSceneToLoad)
     {
@@ -66,7 +46,7 @@ public class SceneLoader : MonoBehaviour
     }
     
     
-    // ----------------------- Coroutines ----------------------
+   
     
     IEnumerator LoadLevelCor(int levelIndex)
     {

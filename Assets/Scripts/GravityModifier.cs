@@ -2,12 +2,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Lean.Touch;
 
 public class GravityModifier : MonoBehaviour
 {
     [Header("Movement Config")]
-     public float climbingSpeed = 1f;
+    public float climbingSpeed = 1f;
     [SerializeField] private float maxClimbingSpeed = 20f;
     [SerializeField] private float accelerationVarb = 1f;
     [SerializeField] private float maxAnimatorSpeed = 2f;
@@ -15,9 +14,9 @@ public class GravityModifier : MonoBehaviour
     public float gravityRotationSpeed = 150f;
     public float directionOfMovement = 1;
     private float horizontalInput;
+    private bool isDragging = false;
     public bool isMoving;
     public bool accelerateOverTime = true;
-    bool isDragging = false;
     
     
     //Cache Referances
@@ -47,8 +46,8 @@ public class GravityModifier : MonoBehaviour
     {
         ForwardMovement();
         AccelerateOverTime();
-        HorizontalMovement();
-       HorizontalMovementPhone();
+        HorizontalMovementPhone();
+        
     }
 
     private void ForwardMovement()
@@ -59,11 +58,13 @@ public class GravityModifier : MonoBehaviour
         }
     }
     
+    /*     USED FOR PC TESTING
     private void HorizontalMovement()
     {
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Rotate(0, 0, -horizontalInput * gravityRotationSpeed * Time.deltaTime);
     }
+    */
     
     private void HorizontalMovementPhone()
     {

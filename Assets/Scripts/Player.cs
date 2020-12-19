@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     private Animator animator;
     private Collider playerCollider;
     private SceneLoader sceneLoader;
+
     private void Awake()
     {
         gravityModifier = GetComponentInParent<GravityModifier>();
@@ -28,6 +29,7 @@ public class Player : MonoBehaviour
             gameManager.AddToScore();
             Destroy(other.gameObject);
         }
+
         if (other.CompareTag("Obstacle"))
         {
             gravityModifier.directionOfMovement = -1;
@@ -36,6 +38,7 @@ public class Player : MonoBehaviour
             playerCollider.enabled = false;
             sceneLoader.RestartLastLevel();
         }
+        
         if (other.CompareTag("Finish"))
         {
             transform.Rotate(-90, 0, 0 * Time.deltaTime * 400);
