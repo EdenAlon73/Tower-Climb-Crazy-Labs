@@ -28,7 +28,7 @@ public class DebugMenu : MonoBehaviour
         //Sliders
         playerRotationSlider = GameObject.Find("Slider_Player Rotation Speed").GetComponent<Slider>();
         climbingSpeedSlider = GameObject.Find("Slider_ClimbingSpeed").GetComponent<Slider>();
-        obstacleSpeedSlider = GameObject.Find("Slider_SpikedBall Speed").GetComponent<Slider>();
+        obstacleSpeedSlider = GameObject.Find("Slider_Falling Obstacle Speed").GetComponent<Slider>();
         obstacleSpawnRateSlider = GameObject.Find("Slider_Obstacle Spawn Rate").GetComponent<Slider>();
 
         //Toggles
