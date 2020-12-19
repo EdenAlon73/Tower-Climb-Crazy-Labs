@@ -12,11 +12,12 @@ public class SpawnerParent : MonoBehaviour
     public bool doISpawnOverTime;
     public bool spawn;
 
-    private void Start()
+    private void Awake()
     {
         spawn = true;
         doISpawnOverTime = false;
     }
+  
 
     public void StopSpawning()
     {

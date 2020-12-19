@@ -10,6 +10,7 @@ public class DebugMenu : MonoBehaviour
     private Slider climbingSpeedSlider;
     private Slider obstacleSpeedSlider;
     private Slider obstacleSpawnRateSlider;
+    private Slider difficultySlider;
 
     //Toggles
     private Toggle accelerateOverTimeToggle;
@@ -18,18 +19,20 @@ public class DebugMenu : MonoBehaviour
     //Cache Ref
     private GravityModifier gravityModifier;
     private SpawnerParent spawnerParent;
-
+    private CanvasController canvasController;
+    
     private void Awake()
     {
         //Cache Ref
         spawnerParent = FindObjectOfType<SpawnerParent>();
         gravityModifier = FindObjectOfType<GravityModifier>();
-
+        canvasController = GetComponentInParent<CanvasController>();
         //Sliders
         playerRotationSlider = GameObject.Find("Slider_Player Rotation Speed").GetComponent<Slider>();
         climbingSpeedSlider = GameObject.Find("Slider_ClimbingSpeed").GetComponent<Slider>();
         obstacleSpeedSlider = GameObject.Find("Slider_Falling Obstacle Speed").GetComponent<Slider>();
         obstacleSpawnRateSlider = GameObject.Find("Slider_Obstacle Spawn Rate").GetComponent<Slider>();
+        difficultySlider = GameObject.Find("Slider_DifficultySetting").GetComponent<Slider>();
 
         //Toggles
         accelerateOverTimeToggle = GameObject.Find("Toggle_Accelerate Over Time").GetComponent<Toggle>();
@@ -42,7 +45,7 @@ public class DebugMenu : MonoBehaviour
         climbingSpeedSlider.value = gravityModifier.climbingSpeed;
         obstacleSpeedSlider.value = spawnerParent.fallingObstacleSpeed;
         obstacleSpawnRateSlider.value = spawnerParent.maxSpawnDelay;
-
+        difficultySlider.value = canvasController.difficultySetting;
         //Toggles
         accelerateOverTimeToggle.isOn = gravityModifier.accelerateOverTime;
         increaseObstacleSpawningToggle.isOn = spawnerParent.doISpawnOverTime;
@@ -55,11 +58,15 @@ public class DebugMenu : MonoBehaviour
         gravityModifier.climbingSpeed = climbingSpeedSlider.value;
         spawnerParent.fallingObstacleSpeed = obstacleSpeedSlider.value;
         spawnerParent.maxSpawnDelay = obstacleSpawnRateSlider.value;
-
+        canvasController.difficultySetting = difficultySlider.value;
         //Toggles
         gravityModifier.accelerateOverTime = accelerateOverTimeToggle.isOn;
         spawnerParent.doISpawnOverTime = increaseObstacleSpawningToggle.isOn;
+        
     }
+
+  
+
 
 }
 
