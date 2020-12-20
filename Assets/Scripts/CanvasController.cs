@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CanvasController : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class CanvasController : MonoBehaviour
     public float difficultySetting = 1;
     private GameObject woodenSpikesHolder1;
     private GameObject woodenSpikesHolder2;
+    
+    
     private void Awake()
     {
         woodenSpikesHolder1 = GameObject.Find("woodenSpikesHolder1");
@@ -18,21 +21,7 @@ public class CanvasController : MonoBehaviour
     {
         difficultySetting = 2f;
     }
-    public void ToggleDebugMenu()
-    {
-        if (gameIsPaused)
-        {
-            debugPanel.SetActive(false);
-            Time.timeScale = 1f;
-            gameIsPaused = false;
-        }
-        else
-        {
-            debugPanel.SetActive(true);
-            Time.timeScale = 0f;
-            gameIsPaused = true;
-        }
-    }
+    
     private void Update()
     {
         Difficulty();
@@ -59,4 +48,22 @@ public class CanvasController : MonoBehaviour
                 break;
         }
     }
+    
+    public void ToggleDebugMenu()
+    {
+        if (gameIsPaused)
+        {
+            debugPanel.SetActive(false);
+            Time.timeScale = 1f;
+            gameIsPaused = false;
+        }
+        else
+        {
+            debugPanel.SetActive(true);
+            Time.timeScale = 0f;
+            gameIsPaused = true;
+        }
+    }
+
+    
 }

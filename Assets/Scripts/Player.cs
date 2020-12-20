@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     private Animator animator;
     private Collider playerCollider;
     private SceneLoader sceneLoader;
-
+    
     private void Awake()
     {
         gravityModifier = GetComponentInParent<GravityModifier>();
@@ -21,7 +21,10 @@ public class Player : MonoBehaviour
         playerCollider = GetComponent<CapsuleCollider>();
         sceneLoader = FindObjectOfType<SceneLoader>();
     }
+
     
+
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Collectable"))
@@ -50,5 +53,4 @@ public class Player : MonoBehaviour
         }
         
     }
-    
 }
