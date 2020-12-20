@@ -47,6 +47,7 @@ public class GravityModifier : MonoBehaviour
         ForwardMovement();
         AccelerateOverTime();
         HorizontalMovementPhone();
+        HorizontalMovement();
         
     }
 
@@ -58,13 +59,13 @@ public class GravityModifier : MonoBehaviour
         }
     }
     
-    /*     USED FOR PC TESTING
+   
     private void HorizontalMovement()
     {
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Rotate(0, 0, -horizontalInput * gravityRotationSpeed * Time.deltaTime);
     }
-    */
+    
     
     private void HorizontalMovementPhone()
     {

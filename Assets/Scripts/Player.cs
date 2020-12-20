@@ -44,6 +44,11 @@ public class Player : MonoBehaviour
             transform.Rotate(-90, 0, 0 * Time.deltaTime * 400);
             animator.SetBool("isFlying", true);
         }
+        if (other.CompareTag("End Level"))
+        {
+            sceneLoader.LoadSceneByName("01Scene_End Scene");
+        }
+        
     }
     
 }
