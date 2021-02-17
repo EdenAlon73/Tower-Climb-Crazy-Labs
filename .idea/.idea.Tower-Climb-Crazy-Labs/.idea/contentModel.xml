@@ -6,6 +6,14 @@
     <e p="C:\Users\EdenA\OneDrive\Documents\Shenkar\Unity\Unity Projects\TowerClimb CrazyLabs\Tower-Climb-Crazy-Labs\Tower-Climb-Crazy-Labs" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Confetti FX 2" t="Include">
+          <e p="Demo" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="ConfCycler.cs" t="Include" />
+              <e p="ConfSceneSelect.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="FarlandSkies" t="Include">
           <e p="Demo" t="Include">
             <e p="Scripts" t="Include">

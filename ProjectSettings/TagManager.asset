@@ -8,6 +8,9 @@ TagManager:
   - Obstacle
   - SpawnerParent
   - End Level
+  - Confetti Collider
+  - myTag
+  - Confetti Folder
   layers:
   - Default
   - TransparentFX

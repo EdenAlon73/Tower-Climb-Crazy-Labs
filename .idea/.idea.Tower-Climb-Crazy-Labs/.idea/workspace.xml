@@ -2,126 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eecbd162-495f-4877-a6ce-a1dc7b77f0ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/Climbing Up Wall.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/Climbing Up Wall.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/Climbing Up Wall.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/Climbing Up Wall.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/CollactableMtt.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/CollactableMtt.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/Falling.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/Falling.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/Flying.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/Flying.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/Materials/Climbing Up Wall.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/Materials/Climbing Up Wall/Boy01_Body_MAT.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/Materials/Climbing Up Wall/Boy01_Body_MAT.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/Materials/Climbing Up Wall/Boy01_Brows_MAT1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/Materials/Climbing Up Wall/Boy01_Brows_MAT1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/Materials/Climbing Up Wall/Boy01_Eyes_MAT1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/Materials/Climbing Up Wall/Boy01_Eyes_MAT1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/Materials/Climbing Up Wall/Boy01_Mouth_MAT1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/Materials/Climbing Up Wall/Boy01_Mouth_MAT1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/New Material.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Character/New Material.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Spikeball.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Spikeball/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Spikeball/Materials/Black.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Spikeball/Materials/Black.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Spikeball/Materials/Metal.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Spikeball/Materials/Metal.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Spikeball/SpikedBallController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Spikeball/SpikedBallController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Spikeball/SpikedBallRotate.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Spikeball/SpikedBallRotate.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Spikeball/Spikes Ball.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Spikeball/Spikes Ball.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Wooden Spike.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Wooden Spike/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Wooden Spike/Materials/Wood Light.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Wooden Spike/Materials/Wood Light.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Wooden Spike/Materials/Wood.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Wooden Spike/Materials/Wood.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Wooden Spike/Wooden Spikes.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Wooden Spike/Wooden Spikes.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Dark Gray 1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Dark Gray 1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Dark Gray.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Dark Gray.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Finish Line Black 1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Finish Line Black 1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Finish Line Black.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Finish Line Black.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Finish Line White 1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Finish Line White 1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Finish Line White.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Finish Line White.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Light Gray 1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Light Gray 1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Light Gray.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Light Gray.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1/Global Volume Profile.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1/Global Volume Profile.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Body.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Body.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Simple Triplaner.shadergraph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Simple Triplaner.shadergraph.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/URP.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/URP/To The Top Render Pipline.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/URP/To The Top Render Pipline.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/URP/To The Top Render Pipline_Renderer.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/URP/To The Top Render Pipline_Renderer.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/level end icon-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/level end icon-03.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/level number icon-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/level number icon-02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/Climbing Up Wall.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/Climbing Up Wall.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/Climbing Up Wall.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/Climbing Up Wall.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/CollactableMtt.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/CollactableMtt.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/Falling.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/Falling.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/Flying.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/Flying.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/New Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/New Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FBX/Castle Tower Finish Line.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FBX/Castle Tower Finish Line.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FBX/Castle Tower.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FBX/Castle Tower.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FarlandSkies/Demo/Materials/GroundTexture.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FarlandSkies/Demo/Materials/GroundTexture.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/SpikeBall Base.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/SpikeBall Base.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/SpikeBall Spikes.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/SpikeBall Spikes.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Tower Gray.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Tower Gray.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obstacles.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obstacles/SpikedBallController.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obstacles/SpikedBallController.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obstacles/SpikedBallRotate.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obstacles/SpikedBallRotate.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obstacles/Spikes Ball.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obstacles/Spikes Ball.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obstacles/Wooden Spikes.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obstacles/Wooden Spikes.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spikes Ball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Spikes Ball.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tower Castle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tower Castle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Demo/Materials/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Demo/Materials/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Demo/Materials/Ground2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Demo/Materials/Ground2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/centerglow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/centerglow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/cloud.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/cloud.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/conf_basic.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/conf_basic.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/conf_basic_trail.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/conf_basic_trail.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/conf_lit_noshape.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/conf_lit_noshape.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Themed/conf_easter.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Themed/conf_easter.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Themed/conf_halloween.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Themed/conf_halloween.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Themed/conf_xmas.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Themed/conf_xmas.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Prefabs/Confetti/Realistic Rainbow Saturated/RealConfettiRainbowSaturatedBlast.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Prefabs/Confetti/Realistic Rainbow Saturated/RealConfettiRainbowSaturatedBlast.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Upgrade/Confetti FX 2 HDRP Upgrade (2019.3.1f1).unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Upgrade/Confetti FX 2 URP Upgrade (2019.3.1f1).unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Dark Gray 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Dark Gray 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Finish Line Black 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Finish Line Black 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Finish Line White 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Finish Line White 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Light Gray 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Light Gray 1.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,10 +63,10 @@
       <option value="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanTouchEvents.cs" />
       <option value="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanDragTranslate.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GravityModifier.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CanvasController.cs" />
       <option value="$PROJECT_DIR$/Assets/SlideIcon.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lecWLX30KWxCx7NmBEyrPDlMg2" />
@@ -225,6 +132,7 @@
       <workItem from="1610286833576" duration="311000" />
       <workItem from="1613549248195" duration="1672000" />
       <workItem from="1613552162381" duration="1910000" />
+      <workItem from="1613563651716" duration="4260000" />
     </task>
     <servers />
   </component>
