@@ -43,12 +43,13 @@ public class Player : MonoBehaviour
         
         if (other.CompareTag("Finish"))
         {
-            transform.Rotate(-90, 0, 0 * Time.deltaTime * 400);
-            animator.SetBool("isFlying", true);
+           
         }
 
         if (other.CompareTag("Confetti Collider"))
         {
+            transform.Rotate(-90, 0, 0 * Time.deltaTime * 400);
+            animator.SetBool("isFlying", true);
             confettiFolder.SetActive(true);
         }
         

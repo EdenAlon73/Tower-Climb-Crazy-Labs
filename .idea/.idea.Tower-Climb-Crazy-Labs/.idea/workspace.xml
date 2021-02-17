@@ -2,33 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eecbd162-495f-4877-a6ce-a1dc7b77f0ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/level end icon-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/level end icon-03.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/level number icon-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/level number icon-02.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Castle Tower Top Seperated.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Castle Tower Top Seperated.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Castle Tower Top bottom Seperated.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Castle Tower Top bottom Seperated.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Dark Gray 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Dark Gray 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Dark Gray.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Dark Gray.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Finish Line Black 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Finish Line Black 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Finish Line Black.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Finish Line Black.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Finish Line White 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Finish Line White 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Finish Line White.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Finish Line White.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Light Gray 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Light Gray 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Light Gray.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Light Gray.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Demo/Materials/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Demo/Materials/Ground.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Demo/Materials/Ground2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Demo/Materials/Ground2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/centerglow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/centerglow.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/cloud.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/cloud.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/conf_basic.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/conf_basic.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/conf_basic_trail.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/conf_basic_trail.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/conf_lit_noshape.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Basics/conf_lit_noshape.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Themed/conf_easter.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Themed/conf_easter.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Themed/conf_halloween.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Themed/conf_halloween.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Themed/conf_xmas.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Materials/Themed/conf_xmas.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Prefabs/Confetti/Realistic Rainbow Saturated/RealConfettiRainbowSaturatedBlast.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Confetti FX 2/Prefabs/Confetti/Realistic Rainbow Saturated/RealConfettiRainbowSaturatedBlast.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Upgrade/Confetti FX 2 HDRP Upgrade (2019.3.1f1).unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Upgrade/Confetti FX 2 URP Upgrade (2019.3.1f1).unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Dark Gray 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Dark Gray 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Finish Line Black 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Finish Line Black 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Finish Line White 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Finish Line White 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Light Gray 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Light Gray 1.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +130,7 @@
       <workItem from="1610286833576" duration="311000" />
       <workItem from="1613549248195" duration="1672000" />
       <workItem from="1613552162381" duration="1910000" />
-      <workItem from="1613563651716" duration="4260000" />
+      <workItem from="1613563651716" duration="5478000" />
     </task>
     <servers />
   </component>
