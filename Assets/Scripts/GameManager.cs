@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         currentScore = 0;
+        scoreText = FindObjectOfType<TextMeshProUGUI>();
     }
     private void Start()
     {
@@ -24,11 +25,30 @@ public class GameManager : MonoBehaviour
     {
         currentScore = currentScore + pointsPerCoinCollected;
         scoreText.text = currentScore.ToString();
+        StartCoroutine(ScorePulse());
     }
 
     public void ResetGame()
     {
         Destroy(gameObject);
+    }
+
+    private IEnumerator ScorePulse()
+    {
+        for (float i = 1f; i <= 1.2f; i += 0.05f)
+        {
+            scoreText.rectTransform.localScale = new Vector3(i, i, i);
+            yield return new WaitForEndOfFrame();
+        }
+        scoreText.rectTransform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
+        
+        for (float i = 1.2f; i >= 1f ; i -= 0.05f)
+        {
+            scoreText.rectTransform.localScale = new Vector3(i, i, i);
+            yield return new WaitForEndOfFrame();
+        }
+        scoreText.rectTransform.localScale = new Vector3(1, 1, 1);
+        
     }
     
 }

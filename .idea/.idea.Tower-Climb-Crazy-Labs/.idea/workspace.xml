@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eecbd162-495f-4877-a6ce-a1dc7b77f0ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Slide Icon.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Slide Icon.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Slide Icon.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Slide Icon.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SlideIcon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/slide.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/slide.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CanvasController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +32,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/TurnTowers.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Collecable.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CamerShake.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DebugMenu.cs" />
@@ -53,6 +42,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CanvasController.cs" />
       <option value="$PROJECT_DIR$/Assets/SlideIcon.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lecWLX30KWxCx7NmBEyrPDlMg2" />
@@ -115,6 +105,8 @@
       <workItem from="1608211288532" duration="2814000" />
       <workItem from="1608457357970" duration="150000" />
       <workItem from="1608458571278" duration="3434000" />
+      <workItem from="1610286833576" duration="311000" />
+      <workItem from="1613549248195" duration="781000" />
     </task>
     <servers />
   </component>
