@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
             scoreText.rectTransform.localScale = new Vector3(i, i, i);
             yield return new WaitForEndOfFrame();
         }
-        scoreText.rectTransform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
+        scoreText.rectTransform.localScale = new Vector3(2f, 2f, 2f);
         
         for (float i = 1.2f; i >= 1f ; i -= 0.05f)
         {
