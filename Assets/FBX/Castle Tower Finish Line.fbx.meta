@@ -3,7 +3,27 @@ guid: 488adc24fbe654e44803b3a6d3155dd2
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Castle Dark Gray
+    second: {fileID: 2100000, guid: 7adf38645390fcc4eb65d6857a921ec6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Castle Finish Line Black
+    second: {fileID: 2100000, guid: 64c74325f91adaf4dac47f72a635ce3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Castle Finish Line White
+    second: {fileID: 2100000, guid: 3eb037fd3341bbc49a43a7f78af41b22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Castle Light Gray
+    second: {fileID: 2100000, guid: ca352c2eba992b642b20810fd6d3ec02, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
