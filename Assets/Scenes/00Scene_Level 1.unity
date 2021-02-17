@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 617d9be015db68348a623b01ea51a8c5, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 5bc6f0a6be3a2424bbf75ef7f16703b7, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -41545,7 +41545,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: 1745.7}
+  m_AnchoredPosition: {x: 6, y: 1531}
   m_SizeDelta: {x: 1920, y: 353.10803}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1870043170
@@ -41569,8 +41569,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 999
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -48384,3 +48384,77 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 493444842}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6448029567566468968
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8147719709191315353, guid: 6450feebe144cbe4bb29a43f160c8188,
+        type: 3}
+      propertyPath: m_Name
+      value: Spikes Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 8147719709191315353, guid: 6450feebe144cbe4bb29a43f160c8188,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816169299920831779, guid: 6450feebe144cbe4bb29a43f160c8188,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816169299920831779, guid: 6450feebe144cbe4bb29a43f160c8188,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816169299920831779, guid: 6450feebe144cbe4bb29a43f160c8188,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.835
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816169299920831779, guid: 6450feebe144cbe4bb29a43f160c8188,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816169299920831779, guid: 6450feebe144cbe4bb29a43f160c8188,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816169299920831779, guid: 6450feebe144cbe4bb29a43f160c8188,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816169299920831779, guid: 6450feebe144cbe4bb29a43f160c8188,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816169299920831779, guid: 6450feebe144cbe4bb29a43f160c8188,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816169299920831779, guid: 6450feebe144cbe4bb29a43f160c8188,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816169299920831779, guid: 6450feebe144cbe4bb29a43f160c8188,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816169299920831779, guid: 6450feebe144cbe4bb29a43f160c8188,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6450feebe144cbe4bb29a43f160c8188, type: 3}
