@@ -12,6 +12,10 @@ public class Player : MonoBehaviour
     private Animator animator;
     private Collider playerCollider;
     private SceneLoader sceneLoader;
+    [SerializeField] private GameObject confettiBurst;
+    [SerializeField] private GameObject confettiRain;
+    [SerializeField] private GameObject confettiBurstPoint;
+    [SerializeField] private Transform confettiRainPoint;
     
     private void Awake()
     {
@@ -46,6 +50,7 @@ public class Player : MonoBehaviour
         {
             transform.Rotate(-90, 0, 0 * Time.deltaTime * 400);
             animator.SetBool("isFlying", true);
+            Instantiate(confettiBurst, confettiBurstPoint.transform.position , Quaternion.identity);
         }
         if (other.CompareTag("End Level"))
         {
