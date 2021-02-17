@@ -2,31 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eecbd162-495f-4877-a6ce-a1dc7b77f0ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Castle Tower Top Seperated.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Castle Tower Top Seperated.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Castle Tower Top bottom Seperated.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Castle Tower Top bottom Seperated.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Dark Gray 1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Dark Gray 1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Dark Gray.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Dark Gray.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Finish Line Black 1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Finish Line Black 1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Finish Line Black.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Finish Line Black.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Finish Line White 1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Finish Line White 1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Finish Line White.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Finish Line White.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Light Gray 1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Light Gray 1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Light Gray.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Top Seperated/Castle Light Gray.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recordings/To The Top Gameplay2021-02-17.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recordings/movie_001.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recordings/movie_002.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recordings/movie_003.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recordings/movie_004.mp4" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +46,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/GravityModifier.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CanvasController.cs" />
       <option value="$PROJECT_DIR$/Assets/SlideIcon.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lecWLX30KWxCx7NmBEyrPDlMg2" />
@@ -131,6 +114,7 @@
       <workItem from="1613549248195" duration="1672000" />
       <workItem from="1613552162381" duration="1910000" />
       <workItem from="1613563651716" duration="5478000" />
+      <workItem from="1613572950649" duration="680000" />
     </task>
     <servers />
   </component>
