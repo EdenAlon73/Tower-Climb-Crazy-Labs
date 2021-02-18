@@ -34,6 +34,7 @@ public class Player : MonoBehaviour
 
         if (other.CompareTag("Obstacle"))
         {
+            Handheld.Vibrate();
             gravityModifier.directionOfMovement = -1;
             animator.SetBool("isFalling", true);
             transform.Rotate(-90, 0, 0 * Time.deltaTime * 400);
@@ -41,10 +42,6 @@ public class Player : MonoBehaviour
             sceneLoader.RestartLastLevel();
         }
         
-        if (other.CompareTag("Finish"))
-        {
-           
-        }
 
         if (other.CompareTag("Confetti Collider"))
         {
