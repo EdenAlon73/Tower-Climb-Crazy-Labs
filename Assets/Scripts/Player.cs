@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     private SceneLoader sceneLoader;
     [SerializeField] private GameObject confettiFolder;
     [SerializeField] private GameObject brokenObastacle;
+    [SerializeField] private GameObject brokenFallingObstacle;
     [SerializeField] private GameObject jetPack;
     public bool hasJetPack = false;
     private bool isFalling = false;
@@ -29,7 +30,7 @@ public class Player : MonoBehaviour
         playerCollider = GetComponent<CapsuleCollider>();
         sceneLoader = FindObjectOfType<SceneLoader>();
     }
-    
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Collectable"))
@@ -40,7 +41,7 @@ public class Player : MonoBehaviour
 
         if (other.CompareTag("Obstacle"))
         {
-            if (!hasJetPack && !isFalling )
+            if (!hasJetPack && !isFalling)
             {
                 Handheld.Vibrate();
                 gravityModifier.directionOfMovement = -1;
@@ -57,9 +58,35 @@ public class Player : MonoBehaviour
                 {
                     obstacleBroken = true;
                     Instantiate(brokenObastacle, other.transform.position, other.transform.rotation);
-                    Destroy(other.gameObject); 
+                    Destroy(other.gameObject);
+                    Invoke("SetObstacleBrokenToFalse", 0.5f);
                 }
-                
+
+            }
+        }
+        if (other.CompareTag("FallingObstacle"))
+        {
+            if (!hasJetPack && !isFalling)
+            {
+                Handheld.Vibrate();
+                gravityModifier.directionOfMovement = -1;
+                animator.SetBool("isFalling", true);
+                transform.Rotate(-90, 0, 0 * Time.deltaTime * 400);
+                isFalling = true;
+
+                //playerCollider.enabled = false;
+                // sceneLoader.RestartLastLevel();
+            }
+            else
+            {
+                if (!obstacleBroken)
+                {
+                    obstacleBroken = true;
+                    Instantiate(brokenFallingObstacle, other.transform.position, other.transform.rotation);
+                    Destroy(other.gameObject);
+                    Invoke("SetObstacleBrokenToFalse", 0.5f);
+                }
+
             }
         }
 
@@ -96,5 +123,10 @@ public class Player : MonoBehaviour
         jetPack.SetActive(false);
         transform.Rotate(90, 0, 0 * Time.deltaTime * 400);
         animator.SetBool("isFlying", false);
+    }
+
+    private void SetObstacleBrokenToFalse()
+    {
+        obstacleBroken = false;
     }
 }

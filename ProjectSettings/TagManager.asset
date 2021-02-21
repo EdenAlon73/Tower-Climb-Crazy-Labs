@@ -12,6 +12,7 @@ TagManager:
   - myTag
   - Confetti Folder
   - Jetpack
+  - FallingObstacle
   layers:
   - Default
   - TransparentFX
