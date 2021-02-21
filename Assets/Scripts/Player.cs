@@ -16,6 +16,9 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject brokenObastacle;
     [SerializeField] private GameObject jetPack;
     private bool hasJetPack = false;
+
+    [SerializeField] private float jetpackActiveTime;
+    private bool obstacleBroken;
     
     private void Awake()
     {
@@ -34,11 +37,6 @@ public class Player : MonoBehaviour
             Destroy(other.gameObject);
         }
 
-        if (other.CompareTag("Jetpack"))
-        {
-            
-        }
-
         if (other.CompareTag("Obstacle"))
         {
             if (!hasJetPack)
@@ -52,8 +50,13 @@ public class Player : MonoBehaviour
             }
             else
             {
-                Instantiate(brokenObastacle, transform.position, transform.rotation);
-                Destroy(other);
+                if (!obstacleBroken)
+                {
+                    obstacleBroken = true;
+                    Instantiate(brokenObastacle, other.transform.position, other.transform.rotation);
+                    Destroy(other.gameObject); 
+                }
+                
             }
         }
 
@@ -64,7 +67,8 @@ public class Player : MonoBehaviour
             jetPack.SetActive(true);
             transform.Rotate(-90, 0, 0 * Time.deltaTime * 400);
             animator.SetBool("isFlying", true);
-            Invoke("BackToClimbing", 3f);
+            Invoke("BackToClimbing", jetpackActiveTime);
+            Destroy(other.gameObject);
         }
         if (other.CompareTag("Confetti Collider"))
         {
