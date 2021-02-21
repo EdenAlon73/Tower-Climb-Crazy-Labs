@@ -32,6 +32,11 @@ public class Player : MonoBehaviour
             Destroy(other.gameObject);
         }
 
+        if (other.CompareTag("Jetpack"))
+        {
+            
+        }
+
         if (other.CompareTag("Obstacle"))
         {
             Handheld.Vibrate();

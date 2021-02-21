@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eecbd162-495f-4877-a6ce-a1dc7b77f0ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Recordings/To The Top Gameplay2021-02-17.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Jetpack Spin.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Jetpack Spin.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Jetpack.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Jetpack.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Jetpack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Jetpack/JetpackColoured.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Jetpack/JetpackColoured.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Jetpack/JetpackColoured1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Jetpack/JetpackColoured1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Jetpack/lambert3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Jetpack/lambert3.mat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recordings/movie_001.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recordings/movie_002.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recordings/movie_003.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recordings/movie_004.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +53,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/GravityModifier.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CanvasController.cs" />
       <option value="$PROJECT_DIR$/Assets/SlideIcon.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MeshDestroy.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lecWLX30KWxCx7NmBEyrPDlMg2" />
@@ -115,6 +123,8 @@
       <workItem from="1613552162381" duration="1910000" />
       <workItem from="1613563651716" duration="5478000" />
       <workItem from="1613572950649" duration="680000" />
+      <workItem from="1613634366222" duration="621000" />
+      <workItem from="1613893077695" duration="761000" />
     </task>
     <servers />
   </component>
