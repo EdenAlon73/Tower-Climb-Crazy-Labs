@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eecbd162-495f-4877-a6ce-a1dc7b77f0ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player Animator.controller" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Animations/Player Animator.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player Climbing.anim" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Animations/Player Climbing.anim.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/SimpleFX.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Materials.meta" afterDir="false" />
@@ -135,8 +133,6 @@
       <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Textures/SimpleSky.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FBX/Character/Climbing Up Wall.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FBX/Character/Climbing Up Wall.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GravityModifier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GravityModifier.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
     </list>
@@ -247,7 +243,7 @@
       <workItem from="1613572950649" duration="680000" />
       <workItem from="1613634366222" duration="621000" />
       <workItem from="1613893077695" duration="761000" />
-      <workItem from="1613896042264" duration="3865000" />
+      <workItem from="1613896042264" duration="4457000" />
     </task>
     <servers />
   </component>
