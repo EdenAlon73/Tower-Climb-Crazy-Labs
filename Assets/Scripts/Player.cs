@@ -15,7 +15,8 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject confettiFolder;
     [SerializeField] private GameObject brokenObastacle;
     [SerializeField] private GameObject jetPack;
-    private bool hasJetPack = false;
+    public bool hasJetPack = false;
+    private bool isFalling = false;
 
     [SerializeField] private float jetpackActiveTime;
     private bool obstacleBroken;
@@ -39,14 +40,16 @@ public class Player : MonoBehaviour
 
         if (other.CompareTag("Obstacle"))
         {
-            if (!hasJetPack)
+            if (!hasJetPack && !isFalling )
             {
                 Handheld.Vibrate();
                 gravityModifier.directionOfMovement = -1;
                 animator.SetBool("isFalling", true);
                 transform.Rotate(-90, 0, 0 * Time.deltaTime * 400);
-                playerCollider.enabled = false;
-                sceneLoader.RestartLastLevel();
+                isFalling = true;
+
+                //playerCollider.enabled = false;
+                // sceneLoader.RestartLastLevel();
             }
             else
             {
@@ -62,11 +65,14 @@ public class Player : MonoBehaviour
 
         if (other.CompareTag("Jetpack"))
         {
+            isFalling = false;
+            gravityModifier.directionOfMovement = 1;
             hasJetPack = true;
             print("foundJetPack");
             jetPack.SetActive(true);
-            transform.Rotate(-90, 0, 0 * Time.deltaTime * 400);
+            transform.Rotate(0, 0, 0 * Time.deltaTime * 400);
             animator.SetBool("isFlying", true);
+            animator.SetBool("isFalling", false);
             Invoke("BackToClimbing", jetpackActiveTime);
             Destroy(other.gameObject);
         }

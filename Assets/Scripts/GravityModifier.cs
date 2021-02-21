@@ -11,23 +11,28 @@ public class GravityModifier : MonoBehaviour
     [SerializeField] private float accelerationVarb = 1f;
     [SerializeField] private float maxAnimatorSpeed = 2f;
     [SerializeField] private float animAccelerationSpeed = 0.2f;
+    [SerializeField] private float jetpackSpeedValue;
     public float gravityRotationSpeed = 150f;
     public float directionOfMovement = 1;
     private float horizontalInput;
     private bool isDragging = false;
     public bool isMoving;
     public bool accelerateOverTime = true;
+    private float jetpackSpeedBoost;
     
     
     //Cache Referances
     private Animator animator;
+    private Player playerScript;
     
 
     private void Awake()
     {
         isMoving = true;
         animator = GetComponentInChildren<Animator>();
+        playerScript = GetComponentInChildren<Player>();
         animator.speed = 0.5f;
+        jetpackSpeedBoost = 0f;
     }
     private void Update()
     {
@@ -48,6 +53,7 @@ public class GravityModifier : MonoBehaviour
         AccelerateOverTime();
         HorizontalMovementPhone();
         HorizontalMovement();
+        AccelerateWithJetpack();
         
     }
 
@@ -55,7 +61,7 @@ public class GravityModifier : MonoBehaviour
     {
         if (isMoving)
         {
-            transform.position = transform.position + new Vector3(0, 0, directionOfMovement * climbingSpeed * Time.deltaTime); 
+            transform.position = transform.position + new Vector3(0, 0, directionOfMovement * (climbingSpeed + jetpackSpeedBoost) * Time.deltaTime); 
         }
     }
     
@@ -101,6 +107,18 @@ public class GravityModifier : MonoBehaviour
             {
                 animator.speed = maxAnimatorSpeed;
             }
+        }
+    }
+
+    private void AccelerateWithJetpack()
+    {
+        if (playerScript.hasJetPack)
+        {
+            jetpackSpeedBoost = jetpackSpeedValue;
+        }
+        else
+        {
+            jetpackSpeedBoost = 0f;
         }
     }
 }

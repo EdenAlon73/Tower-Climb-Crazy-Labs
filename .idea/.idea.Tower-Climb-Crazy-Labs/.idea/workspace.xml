@@ -2,13 +2,142 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eecbd162-495f-4877-a6ce-a1dc7b77f0ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Spikeball Cracked.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Spikeball Cracked.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Wooden Spikes Cracked.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Wooden Spikes Cracked.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player Animator.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player Animator.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player Climbing.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player Climbing.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Materials/FX_Base.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Materials/FX_Base.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Materials/FX_Glow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Materials/FX_Glow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Materials/FX_GunFlash.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Materials/FX_GunFlash.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Materials/FX_Lightray.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Materials/FX_Lightray.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Materials/FX_Rubble.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Materials/FX_Rubble.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Materials/FX_Splash.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Materials/FX_Splash.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Materials/FX_Water.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Materials/FX_Water.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Materials/UnlitVertexColour_Alpha.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Materials/UnlitVertexColour_Alpha.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Models/FX_GunFlash.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Models/FX_GunFlash.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Models/FX_Lightray.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Models/FX_Lightray.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Models/FX_PoolSplash_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Models/FX_PoolSplash_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Models/FX_PoolSplash_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Models/FX_PoolSplash_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Models/FX_PoolSplash_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Models/FX_PoolSplash_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Models/FX_Rubble.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Models/FX_Rubble.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_BloodSplatter.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_BloodSplatter.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_DirtSplatter.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_DirtSplatter.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Dust_Prefab_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Dust_Prefab_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Dust_Prefab_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Dust_Prefab_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Dust_Prefab_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Dust_Prefab_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Explosion_Rubble.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Explosion_Rubble.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Fire.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Fire.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Fireworks_Blue_Large.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Fireworks_Blue_Large.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Fireworks_Blue_Small .prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Fireworks_Blue_Small .prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Fireworks_Green_Large.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Fireworks_Green_Large.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Fireworks_Green_Small.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Fireworks_Green_Small.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Fireworks_Yellow_Large.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Fireworks_Yellow_Large.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Fireworks_Yellow_Small.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Fireworks_Yellow_Small.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_FlameThrower.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_FlameThrower.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_GunFlash.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_GunFlash.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Lightray.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Lightray.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_PoolSplash_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_PoolSplash_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_PoolSplash_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_PoolSplash_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_PoolSplash_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_PoolSplash_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Rubble.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Rubble.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Smoke.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Smoke.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Steam.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Steam.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_TireSmoke.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_TireSmoke.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_WaterSplash.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_WaterSplash.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_WaterSplatter.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_WaterSplatter.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/_Demo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/_Demo/Demo.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleFX/_Demo/Demo.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/ReadMe.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Demo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Demo/SimpleSky_Demo.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Demo/SimpleSky_Demo.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Materials/SimpleSky.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Materials/SimpleSky.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Models/Cloud_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Models/Cloud_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Models/Cloud_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Models/Cloud_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Models/Cloud_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Models/Cloud_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Models/Cloud_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Models/Cloud_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Models/Cloud_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Models/Cloud_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Models/Cloud_06.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Models/Cloud_06.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Models/SkyDome.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Models/SkyDome.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Prefabs/Cloud_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Prefabs/Cloud_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Prefabs/Cloud_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Prefabs/Cloud_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Prefabs/Cloud_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Prefabs/Cloud_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Prefabs/Cloud_04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Prefabs/Cloud_04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Prefabs/Cloud_05.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Prefabs/Cloud_05.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Prefabs/Cloud_06.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Prefabs/Cloud_06.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Prefabs/SkyDome.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Prefabs/SkyDome.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Textures/SimpleSky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSky/_Textures/SimpleSky.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Upgrade/Confetti FX 2 HDRP Upgrade (2019.3.1f1).unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Upgrade/Confetti FX 2 URP Upgrade (2019.3.1f1).unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FBX/Character/Climbing Up Wall.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FBX/Character/Climbing Up Wall.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GravityModifier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GravityModifier.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +172,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ChangeCameraPostions.cs" />
       <option value="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanTouchEvents.cs" />
       <option value="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanDragTranslate.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GravityModifier.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CanvasController.cs" />
       <option value="$PROJECT_DIR$/Assets/SlideIcon.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MeshDestroy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GravityModifier.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
     </changedPaths>
   </component>
@@ -118,7 +247,7 @@
       <workItem from="1613572950649" duration="680000" />
       <workItem from="1613634366222" duration="621000" />
       <workItem from="1613893077695" duration="761000" />
-      <workItem from="1613896042264" duration="1347000" />
+      <workItem from="1613896042264" duration="3865000" />
     </task>
     <servers />
   </component>
