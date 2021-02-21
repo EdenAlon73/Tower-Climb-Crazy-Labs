@@ -56,7 +56,7 @@ public class Player : MonoBehaviour
             {
                 if (!obstacleBroken)
                 {
-                    obstacleBroken = true;
+                    gameManager.AddToScoreObstacle();
                     Instantiate(brokenObastacle, other.transform.position, other.transform.rotation);
                     Destroy(other.gameObject);
                     Invoke("SetObstacleBrokenToFalse", 0.5f);
@@ -81,8 +81,9 @@ public class Player : MonoBehaviour
             {
                 if (!obstacleBroken)
                 {
+                    gameManager.AddToScoreObstacle();
                     obstacleBroken = true;
-                    Instantiate(brokenFallingObstacle, other.transform.position, other.transform.rotation);
+                    Instantiate(brokenFallingObstacle, other.transform.position, transform.rotation);
                     Destroy(other.gameObject);
                     Invoke("SetObstacleBrokenToFalse", 0.5f);
                 }
