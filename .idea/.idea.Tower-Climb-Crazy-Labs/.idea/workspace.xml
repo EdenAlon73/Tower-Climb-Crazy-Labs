@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eecbd162-495f-4877-a6ce-a1dc7b77f0ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Upgrade/Confetti FX 2 HDRP Upgrade (2019.3.1f1).unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Confetti FX 2/Upgrade/Confetti FX 2 URP Upgrade (2019.3.1f1).unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FBX/Obstacles/Spikeball/Destructed/Spikeball Cracked.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FBX/Obstacles/Spikeball/Destructed/Spikeball Cracked.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spikeball Cracked.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Spikeball Cracked.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Fire.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleFX/Prefabs/FX_Fire.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recordings/To The Top Gameplay2021-02-17.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recordings/To The Top Gameplay2021-02-21.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Recordings/To The Top Gameplay2021-02-21.mp4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +116,7 @@
       <workItem from="1613893077695" duration="761000" />
       <workItem from="1613896042264" duration="5053000" />
       <workItem from="1613906917725" duration="1224000" />
+      <workItem from="1613980217703" duration="740000" />
     </task>
     <servers />
   </component>

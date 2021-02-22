@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject jetPack;
     public bool hasJetPack = false;
     private bool isFalling = false;
+    private bool playerXRotIsZero = true;
 
     [SerializeField] private float jetpackActiveTime;
     private bool obstacleBroken;
@@ -48,6 +49,7 @@ public class Player : MonoBehaviour
                 animator.SetBool("isFalling", true);
                 transform.Rotate(-90, 0, 0 * Time.deltaTime * 400);
                 isFalling = true;
+                playerXRotIsZero = false;
 
                 //playerCollider.enabled = false;
                 // sceneLoader.RestartLastLevel();
@@ -73,6 +75,7 @@ public class Player : MonoBehaviour
                 animator.SetBool("isFalling", true);
                 transform.Rotate(-90, 0, 0 * Time.deltaTime * 400);
                 isFalling = true;
+                playerXRotIsZero = false;
 
                 //playerCollider.enabled = false;
                 // sceneLoader.RestartLastLevel();
@@ -98,11 +101,18 @@ public class Player : MonoBehaviour
             hasJetPack = true;
             print("foundJetPack");
             jetPack.SetActive(true);
-            transform.Rotate(0, 0, 0 * Time.deltaTime * 400);
             animator.SetBool("isFlying", true);
             animator.SetBool("isFalling", false);
             Invoke("BackToClimbing", jetpackActiveTime);
             Destroy(other.gameObject);
+            if (!playerXRotIsZero)
+            {
+                transform.Rotate(0, 0, 0 * Time.deltaTime * 400);
+            }
+            else
+            {
+                transform.Rotate(-90, 0, 0 * Time.deltaTime * 400);
+            }
         }
         if (other.CompareTag("Confetti Collider"))
         {

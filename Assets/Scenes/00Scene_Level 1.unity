@@ -8974,7 +8974,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379661789}
-  m_LocalRotation: {x: 0.001750998, y: 0.04819925, z: -0.9982132, w: 0.03527426}
+  m_LocalRotation: {x: 0.001750997, y: 0.048199266, z: -0.99821323, w: 0.035274263}
   m_LocalPosition: {x: -0.062000006, y: 4.5200005, z: -1.563729}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -34371,7 +34371,7 @@ MonoBehaviour:
     type: 3}
   jetPack: {fileID: 676649518}
   hasJetPack: 0
-  jetpackActiveTime: 10
+  jetpackActiveTime: 4
 --- !u!136 &1470026163
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -48155,7 +48155,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2089715947}
-  m_LocalRotation: {x: 0.001750998, y: 0.04819925, z: -0.9982132, w: 0.03527426}
+  m_LocalRotation: {x: 0.001750997, y: 0.048199266, z: -0.99821323, w: 0.035274263}
   m_LocalPosition: {x: -0.062000006, y: 4.5200005, z: -1.563729}
   m_LocalScale: {x: 2.2811267, y: 2.281126, z: 2.281126}
   m_Children: []
