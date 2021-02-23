@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     private Animator animator;
     private Collider playerCollider;
     private SceneLoader sceneLoader;
+    private CapsuleCollider capsuleCollider;
     [SerializeField] private GameObject confettiFolder;
     [SerializeField] private GameObject brokenObastacle;
     [SerializeField] private GameObject brokenFallingObstacle;
@@ -19,6 +20,8 @@ public class Player : MonoBehaviour
     public bool hasJetPack = false;
     private bool isFalling = false;
     private bool playerXRotIsZero = true;
+    private Vector3 playerFlyingCollPos;
+    private Vector3 playerOgCollPos;
 
     [SerializeField] private float jetpackActiveTime;
     private bool obstacleBroken;
@@ -30,6 +33,9 @@ public class Player : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         playerCollider = GetComponent<CapsuleCollider>();
         sceneLoader = FindObjectOfType<SceneLoader>();
+        capsuleCollider = GetComponent<CapsuleCollider>();
+        playerFlyingCollPos = new Vector3(-0.07324244f, -1.42f, -0.41f);
+        playerOgCollPos = new Vector3(-0.07324244f, -0.6294356f, -0.02116803f);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -70,6 +76,7 @@ public class Player : MonoBehaviour
         {
             if (!hasJetPack && !isFalling)
             {
+                capsuleCollider.center = playerOgCollPos;
                 Handheld.Vibrate();
                 gravityModifier.directionOfMovement = -1;
                 animator.SetBool("isFalling", true);
@@ -96,6 +103,7 @@ public class Player : MonoBehaviour
 
         if (other.CompareTag("Jetpack"))
         {
+            capsuleCollider.center = playerFlyingCollPos;
             isFalling = false;
             gravityModifier.directionOfMovement = 1;
             hasJetPack = true;
@@ -116,6 +124,7 @@ public class Player : MonoBehaviour
         }
         if (other.CompareTag("Confetti Collider"))
         {
+            capsuleCollider.center = playerFlyingCollPos;
             transform.Rotate(-90, 0, 0 * Time.deltaTime * 400);
             animator.SetBool("isFlying", true);
             confettiFolder.SetActive(true);
@@ -130,6 +139,7 @@ public class Player : MonoBehaviour
 
     private void BackToClimbing()
     {
+        capsuleCollider.center = playerOgCollPos;
         hasJetPack = false;
         jetPack.SetActive(false);
         transform.Rotate(90, 0, 0 * Time.deltaTime * 400);

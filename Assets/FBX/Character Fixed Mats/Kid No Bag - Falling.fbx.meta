@@ -1,65 +1,57 @@
 fileFormatVersion: 2
-guid: 8436a95489bfe984f8f6df4ec4b5680e
+guid: 364dd0b8fbcb68f409da243476477373
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
   - first:
-      74: 6368675300247556226
-    second: Kid No Bag|Armature|mixamo.com|Layer0
-  - first:
-      74: 2530075118488643339
-    second: Kid No Bag|Armature|mixamo.com|Layer0.001
+      74: -203655887218126122
+    second: mixamo.com
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Boy01_Body_MAT
-    second: {fileID: 2100000, guid: 054e4befd3ed16b498e18e8a51b7afc3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: Glasses Mat
-    second: {fileID: 2100000, guid: 8db0cfc7cc2b5134d8cac317407eba3f, type: 2}
+    second: {fileID: 2100000, guid: ea9471ac14fa5224c84726878f0827c9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Hair Mat
-    second: {fileID: 2100000, guid: b91ff78a32c49a34393d4b5fd730f790, type: 2}
+    second: {fileID: 2100000, guid: 0609cbd7c0b6f484480af8c07e596124, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Hat Mat
-    second: {fileID: 2100000, guid: 70a5779962de04044b8346ee9bd2e731, type: 2}
+    second: {fileID: 2100000, guid: 76d76bb78676cdc43858f6dbb39b6c2d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Pants Mat
-    second: {fileID: 2100000, guid: fa9f27fe27591064986136831dec8874, type: 2}
+    second: {fileID: 2100000, guid: ef1edea85a855de478becd67a7179f42, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Pants Mat 2
-    second: {fileID: 2100000, guid: ac161ed4452f07f47ac28e3575417d4f, type: 2}
+    second: {fileID: 2100000, guid: ef7bcd50bd5637a48a9c98be2604180f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Shirt Mat
-    second: {fileID: 2100000, guid: 72b06f2642c85ef4a989ed84244a73f9, type: 2}
+    second: {fileID: 2100000, guid: 27f3035d6bcbebf4983cafea04a72db6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Shoes Mat
-    second: {fileID: 2100000, guid: 32477ba3f6fa7b74c921d763176d32f6, type: 2}
+    second: {fileID: 2100000, guid: 13a4bf85d28090447a5a4f823304d714, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Shoes Mat 2
-    second: {fileID: 2100000, guid: 3d1107adbbffe194d936a080ff2c059a, type: 2}
+    second: {fileID: 2100000, guid: 830a45dacc60b9b46b37bab046765f8b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Skin Mat
-    second: {fileID: 2100000, guid: 49bd2fc8ea8beeb4f94b4feb9fb657c2, type: 2}
+    second: {fileID: 2100000, guid: 2ee1affcd8b92124aa8e43a6f80b9c5f, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -86,7 +78,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 198
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
