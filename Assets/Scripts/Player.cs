@@ -127,6 +127,7 @@ public class Player : MonoBehaviour
             capsuleCollider.center = playerFlyingCollPos;
             transform.Rotate(-90, 0, 0 * Time.deltaTime * 400);
             animator.SetBool("isFlying", true);
+            jetPack.SetActive(true);
             confettiFolder.SetActive(true);
         }
         
