@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Cinemachine;
 public class Player : MonoBehaviour
 {
     
@@ -22,10 +22,10 @@ public class Player : MonoBehaviour
     private bool playerXRotIsZero = true;
     private Vector3 playerFlyingCollPos;
     private Vector3 playerOgCollPos;
-
     [SerializeField] private float jetpackActiveTime;
     private bool obstacleBroken;
-    
+    [SerializeField] CinemachineVirtualCamera cinemachine;
+
     private void Awake()
     {
         gravityModifier = GetComponentInParent<GravityModifier>();
@@ -56,6 +56,7 @@ public class Player : MonoBehaviour
                 transform.Rotate(-90, 0, 0 * Time.deltaTime * 400);
                 isFalling = true;
                 playerXRotIsZero = false;
+                
 
                 //playerCollider.enabled = false;
                 // sceneLoader.RestartLastLevel();
@@ -150,5 +151,10 @@ public class Player : MonoBehaviour
     private void SetObstacleBrokenToFalse()
     {
         obstacleBroken = false;
+    }
+
+    private void LevelLost()
+    {
+       
     }
 }
