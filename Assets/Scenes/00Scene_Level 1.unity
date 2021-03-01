@@ -38177,6 +38177,7 @@ MonoBehaviour:
   jetPack: {fileID: 676649518}
   hasJetPack: 0
   jetpackActiveTime: 3
+  cinemachine: {fileID: 0}
 --- !u!136 &1470026163
 CapsuleCollider:
   m_ObjectHideFlags: 0
