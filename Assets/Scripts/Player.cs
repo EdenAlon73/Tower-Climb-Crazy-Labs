@@ -22,20 +22,20 @@ public class Player : MonoBehaviour
     private bool playerXRotIsZero = true;
     private Vector3 playerFlyingCollPos;
     private Vector3 playerOgCollPos;
+    private Vector3 playerFallingCollPos;
     [SerializeField] private float jetpackActiveTime;
     private bool obstacleBroken;
-    [SerializeField] CinemachineVirtualCamera cinemachine;
 
     private void Awake()
     {
         gravityModifier = GetComponentInParent<GravityModifier>();
         gameManager = FindObjectOfType<GameManager>();
         animator = GetComponentInChildren<Animator>();
-        playerCollider = GetComponent<CapsuleCollider>();
         sceneLoader = FindObjectOfType<SceneLoader>();
         capsuleCollider = GetComponent<CapsuleCollider>();
+        playerOgCollPos = new Vector3(-0.07324244f, 1.77f, -0.02116803f);
         playerFlyingCollPos = new Vector3(-0.07324244f, -1.42f, -0.41f);
-        playerOgCollPos = new Vector3(-0.07324244f, -0.6294356f, -0.02116803f);
+        playerFallingCollPos = new Vector3(0.06f, 0.78f, -0.02116803f);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -77,7 +77,7 @@ public class Player : MonoBehaviour
         {
             if (!hasJetPack && !isFalling)
             {
-                capsuleCollider.center = playerOgCollPos;
+                capsuleCollider.center = playerFallingCollPos;
                 Handheld.Vibrate();
                 gravityModifier.directionOfMovement = -1;
                 animator.SetBool("isFalling", true);
@@ -151,10 +151,5 @@ public class Player : MonoBehaviour
     private void SetObstacleBrokenToFalse()
     {
         obstacleBroken = false;
-    }
-
-    private void LevelLost()
-    {
-       
     }
 }
