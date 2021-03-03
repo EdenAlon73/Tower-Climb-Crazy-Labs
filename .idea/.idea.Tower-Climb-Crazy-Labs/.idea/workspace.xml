@@ -2,21 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eecbd162-495f-4877-a6ce-a1dc7b77f0ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC_Character.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC_Character.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/HC Character To The Top Anims.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/HC Character To The Top Anims/HC_Character_Without Skin_Falling.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/HC Character To The Top Anims/HC_Character_Without Skin_Falling.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/HC Character To The Top Anims/HC_Character_Without Skin_Flying.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/HC Character To The Top Anims/HC_Character_Without Skin_Flying.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/HC Character To The Top Anims/HC_Charecter_With Skin_Climbing Up Wall.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FBX/HC Character To The Top Anims/HC_Charecter_With Skin_Climbing Up Wall.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC Character.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC Character/Climbing Up Wall.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC Character/Climbing Up Wall.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC Character/Falling.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC Character/Falling.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC Character/Flying.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC Character/Flying.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC Character/HC Character.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC Character/HC Character.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mixamo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mixamo/HC Character To The Top Anims.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mixamo/HC Character To The Top Anims/Male_rig@Climbing Up Wall.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mixamo/HC Character To The Top Anims/Male_rig@Climbing Up Wall.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mixamo/HC Character To The Top Anims/Male_rig@Falling.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mixamo/HC Character To The Top Anims/Male_rig@Falling.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mixamo/HC Character To The Top Anims/Male_rig@Flying.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Mixamo/HC Character To The Top Anims/Male_rig@Flying.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/02Scene_Level Different Collors HC Char.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/02Scene_Level Different Collors HC Char.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerHC.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Kid No Bag.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Kid No Bag.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Light Gray.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FBX/Textures/Castle Light Gray.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/HC_Character.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/HC_Character.controller.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GravityModifier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GravityModifier.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +65,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/CanvasController.cs" />
       <option value="$PROJECT_DIR$/Assets/SlideIcon.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MeshDestroy.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GravityModifier.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GravityModifier.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHC.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lecWLX30KWxCx7NmBEyrPDlMg2" />
@@ -132,6 +145,7 @@
       <workItem from="1614070002315" duration="2522000" />
       <workItem from="1614083301998" duration="611000" />
       <workItem from="1614695646306" duration="1512000" />
+      <workItem from="1614758822758" duration="6096000" />
     </task>
     <servers />
   </component>

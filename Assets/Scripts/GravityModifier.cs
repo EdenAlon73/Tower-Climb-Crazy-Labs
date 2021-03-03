@@ -53,7 +53,7 @@ public class GravityModifier : MonoBehaviour
         AccelerateOverTime();
         HorizontalMovementPhone();
         HorizontalMovement();
-        AccelerateWithJetpack();
+         // AccelerateWithJetpack();
         
     }
 
@@ -109,6 +109,7 @@ public class GravityModifier : MonoBehaviour
             }
         }
     }
+    /*
 
     private void AccelerateWithJetpack()
     {
@@ -121,4 +122,5 @@ public class GravityModifier : MonoBehaviour
             jetpackSpeedBoost = 0f;
         }
     }
+    */
 }
