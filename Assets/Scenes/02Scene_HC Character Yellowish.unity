@@ -10078,7 +10078,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379661789}
-  m_LocalRotation: {x: 0.0017518944, y: 0.048199248, z: -0.9982132, w: 0.03527437}
+  m_LocalRotation: {x: 0.0017470184, y: 0.048199255, z: -0.9982132, w: 0.03527414}
   m_LocalPosition: {x: -0.062000006, y: 4.5200005, z: -1.563729}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -45112,6 +45112,9 @@ MonoBehaviour:
     type: 3}
   crackedSpikeballObstacle: {fileID: 8253768475687832518, guid: 33397433b156a9542960e1e4e2171f4f,
     type: 3}
+  crackedVendingMachine: {fileID: 810631162791220436, guid: e5265d1a2ffe5634f9189009ffb1b583,
+    type: 3}
+  crackedCar: {fileID: 0}
   spikeballSpawnPoint: {fileID: 1796265344}
 --- !u!54 &1680807573
 Rigidbody:
@@ -45739,12 +45742,12 @@ PrefabInstance:
     - target: {fileID: 3161207550485718672, guid: 1bed4a6090a876c408368c65b769fa31,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.66233873
       objectReference: {fileID: 0}
     - target: {fileID: 3161207550485718672, guid: 1bed4a6090a876c408368c65b769fa31,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7492045
       objectReference: {fileID: 0}
     - target: {fileID: 3161207550485718672, guid: 1bed4a6090a876c408368c65b769fa31,
         type: 3}
@@ -45764,7 +45767,7 @@ PrefabInstance:
     - target: {fileID: 3161207550485718672, guid: 1bed4a6090a876c408368c65b769fa31,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -82.957
       objectReference: {fileID: 0}
     - target: {fileID: 3161207550485718674, guid: 1bed4a6090a876c408368c65b769fa31,
         type: 3}
@@ -46442,12 +46445,12 @@ PrefabInstance:
     - target: {fileID: 3161207550485718672, guid: 1bed4a6090a876c408368c65b769fa31,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.73678875
       objectReference: {fileID: 0}
     - target: {fileID: 3161207550485718672, guid: 1bed4a6090a876c408368c65b769fa31,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.676123
       objectReference: {fileID: 0}
     - target: {fileID: 3161207550485718672, guid: 1bed4a6090a876c408368c65b769fa31,
         type: 3}
@@ -46467,7 +46470,7 @@ PrefabInstance:
     - target: {fileID: 3161207550485718672, guid: 1bed4a6090a876c408368c65b769fa31,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 94.91701
       objectReference: {fileID: 0}
     - target: {fileID: 3161207550485718674, guid: 1bed4a6090a876c408368c65b769fa31,
         type: 3}
@@ -51795,12 +51798,12 @@ PrefabInstance:
     - target: {fileID: 3161207550485718672, guid: 1bed4a6090a876c408368c65b769fa31,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.9999994
       objectReference: {fileID: 0}
     - target: {fileID: 3161207550485718672, guid: 1bed4a6090a876c408368c65b769fa31,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.0011680522
       objectReference: {fileID: 0}
     - target: {fileID: 3161207550485718672, guid: 1bed4a6090a876c408368c65b769fa31,
         type: 3}
@@ -51820,7 +51823,7 @@ PrefabInstance:
     - target: {fileID: 3161207550485718672, guid: 1bed4a6090a876c408368c65b769fa31,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -180.13399
       objectReference: {fileID: 0}
     - target: {fileID: 3161207550485718674, guid: 1bed4a6090a876c408368c65b769fa31,
         type: 3}
@@ -54367,7 +54370,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2089715947}
-  m_LocalRotation: {x: 0.0017518944, y: 0.048199248, z: -0.9982132, w: 0.03527437}
+  m_LocalRotation: {x: 0.0017470184, y: 0.048199255, z: -0.9982132, w: 0.03527414}
   m_LocalPosition: {x: -0.062000006, y: 4.5200005, z: -1.563729}
   m_LocalScale: {x: 2.2811267, y: 2.281126, z: 2.281126}
   m_Children: []

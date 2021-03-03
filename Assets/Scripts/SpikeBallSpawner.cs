@@ -8,7 +8,7 @@ public class SpikeBallSpawner : MonoBehaviour
 {
     private SpawnerParent spawnerParent;
 
-    [SerializeField] private GameObject fallingObstaclePrefab;
+    [SerializeField] private GameObject[] fallingObstaclePrefab;
 
 
     private void Awake()
@@ -42,7 +42,7 @@ public class SpikeBallSpawner : MonoBehaviour
 
     private void SpwanObstacle()
     {
-        Instantiate(fallingObstaclePrefab, transform.position, Quaternion.identity, transform);
+        Instantiate(fallingObstaclePrefab[Random.Range(0, fallingObstaclePrefab.Length)], transform.position, Quaternion.identity, transform);
     }
 
 

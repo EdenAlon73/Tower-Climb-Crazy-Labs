@@ -13,6 +13,8 @@ TagManager:
   - Confetti Folder
   - Jetpack
   - FallingObstacle
+  - FallingVending
+  - FallingCar
   layers:
   - Default
   - TransparentFX

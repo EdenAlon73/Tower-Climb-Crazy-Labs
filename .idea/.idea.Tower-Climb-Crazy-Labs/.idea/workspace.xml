@@ -2,33 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eecbd162-495f-4877-a6ce-a1dc7b77f0ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC Character.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC Character/Climbing Up Wall.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC Character/Climbing Up Wall.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC Character/Falling.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC Character/Falling.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC Character/Flying.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC Character/Flying.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC Character/HC Character.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/HC Character/HC Character.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mixamo.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mixamo/HC Character To The Top Anims.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mixamo/HC Character To The Top Anims/Male_rig@Climbing Up Wall.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mixamo/HC Character To The Top Anims/Male_rig@Climbing Up Wall.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mixamo/HC Character To The Top Anims/Male_rig@Falling.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mixamo/HC Character To The Top Anims/Male_rig@Falling.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mixamo/HC Character To The Top Anims/Male_rig@Flying.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Mixamo/HC Character To The Top Anims/Male_rig@Flying.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/02Scene_Level Different Collors HC Char.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/02Scene_Level Different Collors HC Char.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerHC.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Vending Machine Turn.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Vending Machine Turn.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Vending Machine.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Vending Machine.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Car 01.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Car 01/C_Car_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Car 01/C_Car_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Car 01/Car Cracked.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Car 01/Car Cracked/Car Cracked.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Car 01/Car Cracked/Car Cracked.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Cracked.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Cracked/Neon.001.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Cracked/Neon.001.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Cracked/Neon.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Cracked/Neon.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Cracked/Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Cracked/Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Cracked/Rubber.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Cracked/Rubber.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Cracked/Vending Machine Cracked.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Cracked/Vending Machine Cracked.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Neon.001.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Neon.001.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Neon.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Neon.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Rubber.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Rubber.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Vending Machine.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FBX/Vending Machine/Vending Machine.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Vending Machine Cracked.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Vending Machine Cracked.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Vending Machine.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Vending Machine.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tower-Climb-Crazy-Labs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/HC_Character.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/HC_Character.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/00Scene_Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GravityModifier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GravityModifier.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FallingObstacleSpwaner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FallingObstacleSpwaner.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spikes Ball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Spikes Ball.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/02Scene_HC Character Yellowish.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/02Scene_HC Character Yellowish.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerHC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerHC.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpikeBallSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpikeBallSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +84,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GravityModifier.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SpikeBallSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHC.cs" />
     </changedPaths>
   </component>
@@ -145,7 +162,7 @@
       <workItem from="1614070002315" duration="2522000" />
       <workItem from="1614083301998" duration="611000" />
       <workItem from="1614695646306" duration="1512000" />
-      <workItem from="1614758822758" duration="6689000" />
+      <workItem from="1614758822758" duration="8563000" />
     </task>
     <servers />
   </component>

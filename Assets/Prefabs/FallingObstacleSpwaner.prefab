@@ -43,10 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086de285c88197041910c96e5e608cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallingObstaclePrefab: {fileID: 8147719709191315353, guid: 6450feebe144cbe4bb29a43f160c8188,
-    type: 3}
-  minSpawnDelay: 1
-  maxSpawnDelay: 5
-  spawnTimeDelay: 2
-  timeIncrement: 0.25
-  doISpawnOverTime: 0
+  fallingObstaclePrefab:
+  - {fileID: 8147719709191315353, guid: 6450feebe144cbe4bb29a43f160c8188, type: 3}
+  - {fileID: 1514882514271363421, guid: 8e00799c1368c314596b1c129cfd5850, type: 3}

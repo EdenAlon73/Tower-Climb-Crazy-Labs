@@ -22,6 +22,8 @@ public class PlayerHC : MonoBehaviour
     [SerializeField] private GameObject confettiFolder;
     [SerializeField] private GameObject brokenObastacle;
     [SerializeField] private GameObject crackedSpikeballObstacle;
+    [SerializeField] private GameObject crackedVendingMachine;
+    [SerializeField] private GameObject crackedCar;
     [SerializeField] private GameObject spikeballSpawnPoint;
 
     // Bool's
@@ -80,7 +82,7 @@ public class PlayerHC : MonoBehaviour
 
             }
         }
-        if (other.CompareTag("FallingObstacle"))
+        if (other.CompareTag("FallingObstacle") || other.CompareTag("FallingVending") || other.CompareTag("FallingCar"))
         {
             if (!hasJetPack && !isFalling)
             {
@@ -98,9 +100,17 @@ public class PlayerHC : MonoBehaviour
                 {
                     gameManager.AddToScoreObstacle();
                     obstacleBroken = true;
-                    Instantiate(crackedSpikeballObstacle, spikeballSpawnPoint.transform.position, spikeballSpawnPoint.transform.rotation);
                     Destroy(other.gameObject);
                     Invoke("SetObstacleBrokenToFalse", 0.5f);
+                    if (other.CompareTag("FallingObstacle"))
+                    {
+                        Instantiate(crackedSpikeballObstacle, spikeballSpawnPoint.transform.position, spikeballSpawnPoint.transform.rotation);
+                    }
+
+                    if (other.CompareTag("FallingVending"))
+                    {
+                        Instantiate(crackedVendingMachine, other.transform.position, other.transform.rotation);
+                    }
                 }
 
             }
