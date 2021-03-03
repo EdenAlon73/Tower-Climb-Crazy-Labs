@@ -111,6 +111,11 @@ public class PlayerHC : MonoBehaviour
                     {
                         Instantiate(crackedVendingMachine, other.transform.position, other.transform.rotation);
                     }
+
+                    if (other.CompareTag("FallingCar"))
+                    {
+                        Instantiate(crackedCar, other.transform.position, other.transform.rotation);
+                    }
                 }
 
             }
@@ -148,7 +153,6 @@ public class PlayerHC : MonoBehaviour
         hasJetPack = false;
         jetpackOnPlayer.SetActive(false);
         SetToClimbingRotation();
-       // transform.Rotate(90, 0, 0 * Time.deltaTime * 400);
         animator.SetBool("isFlying", false);
     }
 

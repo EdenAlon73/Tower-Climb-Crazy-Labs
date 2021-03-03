@@ -46,3 +46,4 @@ MonoBehaviour:
   fallingObstaclePrefab:
   - {fileID: 8147719709191315353, guid: 6450feebe144cbe4bb29a43f160c8188, type: 3}
   - {fileID: 1514882514271363421, guid: 8e00799c1368c314596b1c129cfd5850, type: 3}
+  - {fileID: 8057425137672471247, guid: ae0b38f4ab0d263418fc8da78e1a8126, type: 3}

@@ -23,15 +23,15 @@ public class GravityModifier : MonoBehaviour
     
     //Cache Referances
     private Animator animator;
-    private Player playerScript;
+    private PlayerHC playerHcScript;
     
 
     private void Awake()
     {
         isMoving = true;
         animator = GetComponentInChildren<Animator>();
-        playerScript = GetComponentInChildren<Player>();
-        animator.speed = 0.5f;
+        playerHcScript = GetComponentInChildren<PlayerHC>();
+        animator.speed = 1f;
         jetpackSpeedBoost = 0f;
     }
     private void Update()
@@ -53,7 +53,7 @@ public class GravityModifier : MonoBehaviour
         AccelerateOverTime();
         HorizontalMovementPhone();
         HorizontalMovement();
-         // AccelerateWithJetpack();
+        AccelerateWithJetpack();
         
     }
 
@@ -109,11 +109,10 @@ public class GravityModifier : MonoBehaviour
             }
         }
     }
-    /*
 
     private void AccelerateWithJetpack()
     {
-        if (playerScript.hasJetPack)
+        if (playerHcScript.hasJetPack)
         {
             jetpackSpeedBoost = jetpackSpeedValue;
         }
@@ -122,5 +121,5 @@ public class GravityModifier : MonoBehaviour
             jetpackSpeedBoost = 0f;
         }
     }
-    */
+    
 }
